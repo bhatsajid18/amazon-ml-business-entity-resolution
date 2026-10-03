@@ -1,0 +1,10 @@
+== job 39152 (ber_diag) on cse-node011 at 2026-09-27 11:44:22
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+wrote /u/student/2025/cs25mtech11019/ber/student_resource/output/diag/labse2_20260927_051906_blank_France/matching_results.tsv: 259,452 France rows emptied
+v: 1732544 rows (0 empty, 1732544 non-empty).
+
+WARNING: ID-existence check is OFF (the default) — not checking that matched/candidate IDs exist in the test set. Every other rule is still checked. Re-run with --check-ids to enable it (needs test_source2/3.tsv; uses more memory). A nonexistent ID only lowers your score, never rejects your submission.
+PASS — no blocking issues found. Safe to submit.
+
+France: 0.1498 of test S1 records; predicted-empty share in this run 0.0526 (use as the singleton share)
+after both scores are known:  F_France ~= 0.0526 + (LB_full - LB_blank) / 0.1498

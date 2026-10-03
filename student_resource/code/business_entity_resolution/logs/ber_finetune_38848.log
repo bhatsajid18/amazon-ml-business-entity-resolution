@@ -1,0 +1,164 @@
+== job 38848 (ber_finetune) on cse-node011 at 2026-09-26 20:12:56
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+fold A: 883,457 of 2,206,821 S1 entities
+3,058,069 true pairs in fold A
+round-1 recall ceiling on fold A: 0.9196
+examples: 350,000 (175,000 with a round-1 miss)
+texts ready in 99s; e.g.
+  A: jua chadwick | 21 diana drive, haverhill, ma
+  P: jua chadwick | 21. diana dr, haverhill, massachusetts
+  N: jua chadwick south llc | 24-d diana dr, haverhill, massachusetts
+/u/student/2025/cs25mtech11019/.conda/envs/ber/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/u/student/2025/cs25mtech11019/.conda/envs/ber/lib/python3.11/site-packages/accelerate/accelerator.py:488: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.scaler = torch.cuda.amp.GradScaler(**kwargs)
+max_steps is given, it will override any value given in num_train_epochs
+training 3,646 steps of 96 (lr 2e-05, max_len 48)
+  step     50/3,646  loss 1.9099    0.9 min  eta  68.3 min
+{'loss': 1.9099, 'grad_norm': 5.144680023193359, 'learning_rate': 5.355191256830602e-06, 'epoch': 0.013713658804168952}
+  step    100/3,646  loss 0.4954    1.9 min  eta  65.7 min
+{'loss': 0.4954, 'grad_norm': 3.5078625679016113, 'learning_rate': 1.0819672131147544e-05, 'epoch': 0.027427317608337904}
+  step    150/3,646  loss 0.3533    2.7 min  eta  64.0 min
+{'loss': 0.3533, 'grad_norm': 4.777825355529785, 'learning_rate': 1.628415300546448e-05, 'epoch': 0.04114097641250686}
+  step    200/3,646  loss 0.2431    3.6 min  eta  62.9 min
+{'loss': 0.2431, 'grad_norm': 3.4399893283843994, 'learning_rate': 1.9907594571181058e-05, 'epoch': 0.05485463521667581}
+  step    250/3,646  loss 0.2046    4.5 min  eta  61.8 min
+{'loss': 0.2046, 'grad_norm': 2.9906790256500244, 'learning_rate': 1.9618827606121862e-05, 'epoch': 0.06856829402084476}
+  step    300/3,646  loss 0.1752    5.5 min  eta  60.8 min
+{'loss': 0.1752, 'grad_norm': 3.2246625423431396, 'learning_rate': 1.9330060641062663e-05, 'epoch': 0.08228195282501372}
+  step    350/3,646  loss 0.1638    6.4 min  eta  59.9 min
+{'loss': 0.1638, 'grad_norm': 2.320383310317993, 'learning_rate': 1.9041293676003467e-05, 'epoch': 0.09599561162918267}
+  step    400/3,646  loss 0.1508    7.3 min  eta  58.9 min
+{'loss': 0.1508, 'grad_norm': 3.2210803031921387, 'learning_rate': 1.8752526710944268e-05, 'epoch': 0.10970927043335162}
+  step    450/3,646  loss 0.1249    8.2 min  eta  57.9 min
+{'loss': 0.1249, 'grad_norm': 1.8755367994308472, 'learning_rate': 1.8463759745885072e-05, 'epoch': 0.12342292923752057}
+  step    500/3,646  loss 0.1167    9.0 min  eta  56.9 min
+{'loss': 0.1167, 'grad_norm': 1.8709473609924316, 'learning_rate': 1.8174992780825877e-05, 'epoch': 0.13713658804168952}
+  step    550/3,646  loss 0.1068    9.9 min  eta  56.0 min
+{'loss': 0.1068, 'grad_norm': 2.033949136734009, 'learning_rate': 1.7886225815766678e-05, 'epoch': 0.1508502468458585}
+  step    600/3,646  loss 0.1037   10.9 min  eta  55.1 min
+{'loss': 0.1037, 'grad_norm': 3.339524030685425, 'learning_rate': 1.7597458850707482e-05, 'epoch': 0.16456390565002743}
+  step    650/3,646  loss 0.1021   11.7 min  eta  54.2 min
+{'loss': 0.1021, 'grad_norm': 2.243070602416992, 'learning_rate': 1.7308691885648283e-05, 'epoch': 0.17827756445419637}
+  step    700/3,646  loss 0.0912   12.7 min  eta  53.3 min
+{'loss': 0.0912, 'grad_norm': 2.3532562255859375, 'learning_rate': 1.7019924920589087e-05, 'epoch': 0.19199122325836535}
+  step    750/3,646  loss 0.0977   13.6 min  eta  52.3 min
+{'loss': 0.0977, 'grad_norm': 2.610218048095703, 'learning_rate': 1.6731157955529888e-05, 'epoch': 0.2057048820625343}
+  step    800/3,646  loss 0.0972   14.5 min  eta  51.4 min
+{'loss': 0.0972, 'grad_norm': 7.892550468444824, 'learning_rate': 1.6442390990470692e-05, 'epoch': 0.21941854086670323}
+  step    850/3,646  loss 0.1010   15.4 min  eta  50.5 min
+{'loss': 0.101, 'grad_norm': 2.918402671813965, 'learning_rate': 1.6153624025411493e-05, 'epoch': 0.23313219967087218}
+  step    900/3,646  loss 0.0919   16.2 min  eta  49.6 min
+{'loss': 0.0919, 'grad_norm': 1.158561110496521, 'learning_rate': 1.5864857060352297e-05, 'epoch': 0.24684585847504115}
+  step    950/3,646  loss 0.0694   17.2 min  eta  48.7 min
+{'loss': 0.0694, 'grad_norm': 1.8936704397201538, 'learning_rate': 1.5576090095293098e-05, 'epoch': 0.2605595172792101}
+  step  1,000/3,646  loss 0.0780   18.1 min  eta  47.8 min
+{'loss': 0.078, 'grad_norm': 2.1655242443084717, 'learning_rate': 1.5287323130233902e-05, 'epoch': 0.27427317608337903}
+  step  1,050/3,646  loss 0.0709   19.0 min  eta  46.9 min
+{'loss': 0.0709, 'grad_norm': 1.9203770160675049, 'learning_rate': 1.4998556165174705e-05, 'epoch': 0.287986834887548}
+  step  1,100/3,646  loss 0.0770   19.9 min  eta  46.0 min
+{'loss': 0.077, 'grad_norm': 1.842893362045288, 'learning_rate': 1.4709789200115507e-05, 'epoch': 0.301700493691717}
+  step  1,150/3,646  loss 0.0792   20.8 min  eta  45.1 min
+{'loss': 0.0792, 'grad_norm': 1.2724634408950806, 'learning_rate': 1.442102223505631e-05, 'epoch': 0.3154141524958859}
+  step  1,200/3,646  loss 0.0755   21.7 min  eta  44.2 min
+{'loss': 0.0755, 'grad_norm': 1.7200043201446533, 'learning_rate': 1.4132255269997112e-05, 'epoch': 0.32912781130005486}
+  step  1,250/3,646  loss 0.0692   22.6 min  eta  43.2 min
+{'loss': 0.0692, 'grad_norm': 1.8417716026306152, 'learning_rate': 1.3843488304937915e-05, 'epoch': 0.34284147010422383}
+  step  1,300/3,646  loss 0.0662   23.5 min  eta  42.3 min
+{'loss': 0.0662, 'grad_norm': 2.293935537338257, 'learning_rate': 1.3554721339878717e-05, 'epoch': 0.35655512890839275}
+  step  1,350/3,646  loss 0.0710   24.4 min  eta  41.4 min
+{'loss': 0.071, 'grad_norm': 2.4259257316589355, 'learning_rate': 1.326595437481952e-05, 'epoch': 0.3702687877125617}
+  step  1,400/3,646  loss 0.0686   25.3 min  eta  40.5 min
+{'loss': 0.0686, 'grad_norm': 1.751183271408081, 'learning_rate': 1.2977187409760323e-05, 'epoch': 0.3839824465167307}
+  step  1,450/3,646  loss 0.0601   26.2 min  eta  39.6 min
+{'loss': 0.0601, 'grad_norm': 1.306758165359497, 'learning_rate': 1.2688420444701129e-05, 'epoch': 0.3976961053208996}
+  step  1,500/3,646  loss 0.0721   27.1 min  eta  38.7 min
+{'loss': 0.0721, 'grad_norm': 1.350138783454895, 'learning_rate': 1.2399653479641931e-05, 'epoch': 0.4114097641250686}
+  step  1,550/3,646  loss 0.0669   28.0 min  eta  37.8 min
+{'loss': 0.0669, 'grad_norm': 1.7207883596420288, 'learning_rate': 1.2110886514582734e-05, 'epoch': 0.4251234229292375}
+  step  1,600/3,646  loss 0.0606   28.9 min  eta  36.9 min
+{'loss': 0.0606, 'grad_norm': 2.1631176471710205, 'learning_rate': 1.1822119549523536e-05, 'epoch': 0.43883708173340646}
+  step  1,650/3,646  loss 0.0608   29.8 min  eta  36.0 min
+{'loss': 0.0608, 'grad_norm': 1.4300698041915894, 'learning_rate': 1.1533352584464339e-05, 'epoch': 0.45255074053757544}
+  step  1,700/3,646  loss 0.0541   30.7 min  eta  35.1 min
+{'loss': 0.0541, 'grad_norm': 1.5547503232955933, 'learning_rate': 1.1244585619405141e-05, 'epoch': 0.46626439934174435}
+  step  1,750/3,646  loss 0.0712   31.6 min  eta  34.2 min
+{'loss': 0.0712, 'grad_norm': 1.7355139255523682, 'learning_rate': 1.0955818654345944e-05, 'epoch': 0.4799780581459133}
+  step  1,800/3,646  loss 0.0644   32.5 min  eta  33.3 min
+{'loss': 0.0644, 'grad_norm': 1.5409135818481445, 'learning_rate': 1.0667051689286746e-05, 'epoch': 0.4936917169500823}
+  step  1,850/3,646  loss 0.0554   33.4 min  eta  32.4 min
+{'loss': 0.0554, 'grad_norm': 1.6469879150390625, 'learning_rate': 1.0378284724227549e-05, 'epoch': 0.5074053757542513}
+  step  1,900/3,646  loss 0.0614   34.3 min  eta  31.5 min
+{'loss': 0.0614, 'grad_norm': 2.105802297592163, 'learning_rate': 1.0089517759168353e-05, 'epoch': 0.5211190345584202}
+  step  1,950/3,646  loss 0.0573   35.2 min  eta  30.6 min
+{'loss': 0.0573, 'grad_norm': 1.7329943180084229, 'learning_rate': 9.800750794109156e-06, 'epoch': 0.5348326933625891}
+  step  2,000/3,646  loss 0.0612   36.1 min  eta  29.7 min
+{'loss': 0.0612, 'grad_norm': 2.2042899131774902, 'learning_rate': 9.511983829049958e-06, 'epoch': 0.5485463521667581}
+  step  2,050/3,646  loss 0.0517   37.0 min  eta  28.8 min
+{'loss': 0.0517, 'grad_norm': 1.7060825824737549, 'learning_rate': 9.22321686399076e-06, 'epoch': 0.562260010970927}
+  step  2,100/3,646  loss 0.0589   37.9 min  eta  27.9 min
+{'loss': 0.0589, 'grad_norm': 0.6589872241020203, 'learning_rate': 8.934449898931563e-06, 'epoch': 0.575973669775096}
+  step  2,150/3,646  loss 0.0626   38.8 min  eta  27.0 min
+{'loss': 0.0626, 'grad_norm': 2.221299886703491, 'learning_rate': 8.645682933872366e-06, 'epoch': 0.589687328579265}
+  step  2,200/3,646  loss 0.0540   39.7 min  eta  26.1 min
+{'loss': 0.054, 'grad_norm': 1.7645800113677979, 'learning_rate': 8.356915968813168e-06, 'epoch': 0.603400987383434}
+  step  2,250/3,646  loss 0.0507   40.6 min  eta  25.2 min
+{'loss': 0.0507, 'grad_norm': 1.9323103427886963, 'learning_rate': 8.068149003753971e-06, 'epoch': 0.6171146461876028}
+  step  2,300/3,646  loss 0.0511   41.5 min  eta  24.3 min
+{'loss': 0.0511, 'grad_norm': 1.7258715629577637, 'learning_rate': 7.779382038694774e-06, 'epoch': 0.6308283049917718}
+  step  2,350/3,646  loss 0.0609   42.4 min  eta  23.4 min
+{'loss': 0.0609, 'grad_norm': 2.035813570022583, 'learning_rate': 7.490615073635576e-06, 'epoch': 0.6445419637959408}
+  step  2,400/3,646  loss 0.0556   43.3 min  eta  22.5 min
+{'loss': 0.0556, 'grad_norm': 0.8543339967727661, 'learning_rate': 7.2018481085763795e-06, 'epoch': 0.6582556226001097}
+  step  2,450/3,646  loss 0.0563   44.2 min  eta  21.6 min
+{'loss': 0.0563, 'grad_norm': 1.9485937356948853, 'learning_rate': 6.913081143517182e-06, 'epoch': 0.6719692814042787}
+  step  2,500/3,646  loss 0.0516   45.1 min  eta  20.7 min
+{'loss': 0.0516, 'grad_norm': 3.320180892944336, 'learning_rate': 6.624314178457985e-06, 'epoch': 0.6856829402084477}
+  step  2,550/3,646  loss 0.0537   46.0 min  eta  19.8 min
+{'loss': 0.0537, 'grad_norm': 1.2727855443954468, 'learning_rate': 6.335547213398787e-06, 'epoch': 0.6993965990126165}
+  step  2,600/3,646  loss 0.0512   46.9 min  eta  18.9 min
+{'loss': 0.0512, 'grad_norm': 1.269660234451294, 'learning_rate': 6.046780248339591e-06, 'epoch': 0.7131102578167855}
+  step  2,650/3,646  loss 0.0488   47.8 min  eta  18.0 min
+{'loss': 0.0488, 'grad_norm': 2.20174241065979, 'learning_rate': 5.758013283280394e-06, 'epoch': 0.7268239166209545}
+  step  2,700/3,646  loss 0.0473   48.7 min  eta  17.1 min
+{'loss': 0.0473, 'grad_norm': 1.9281370639801025, 'learning_rate': 5.4692463182211965e-06, 'epoch': 0.7405375754251234}
+  step  2,750/3,646  loss 0.0452   49.6 min  eta  16.2 min
+{'loss': 0.0452, 'grad_norm': 1.7504301071166992, 'learning_rate': 5.180479353161999e-06, 'epoch': 0.7542512342292924}
+  step  2,800/3,646  loss 0.0545   50.5 min  eta  15.3 min
+{'loss': 0.0545, 'grad_norm': 1.2881602048873901, 'learning_rate': 4.8917123881028016e-06, 'epoch': 0.7679648930334614}
+  step  2,850/3,646  loss 0.0471   51.4 min  eta  14.4 min
+{'loss': 0.0471, 'grad_norm': 1.4702634811401367, 'learning_rate': 4.602945423043604e-06, 'epoch': 0.7816785518376302}
+  step  2,900/3,646  loss 0.0527   52.3 min  eta  13.5 min
+{'loss': 0.0527, 'grad_norm': 1.2756925821304321, 'learning_rate': 4.314178457984407e-06, 'epoch': 0.7953922106417992}
+  step  2,950/3,646  loss 0.0600   53.2 min  eta  12.6 min
+{'loss': 0.06, 'grad_norm': 2.4191322326660156, 'learning_rate': 4.02541149292521e-06, 'epoch': 0.8091058694459682}
+  step  3,000/3,646  loss 0.0507   54.1 min  eta  11.7 min
+{'loss': 0.0507, 'grad_norm': 0.9229303002357483, 'learning_rate': 3.736644527866012e-06, 'epoch': 0.8228195282501372}
+  step  3,050/3,646  loss 0.0449   55.0 min  eta  10.8 min
+{'loss': 0.0449, 'grad_norm': 1.2778024673461914, 'learning_rate': 3.447877562806815e-06, 'epoch': 0.8365331870543061}
+  step  3,100/3,646  loss 0.0523   55.9 min  eta   9.9 min
+{'loss': 0.0523, 'grad_norm': 2.072732925415039, 'learning_rate': 3.1591105977476177e-06, 'epoch': 0.850246845858475}
+  step  3,150/3,646  loss 0.0428   56.8 min  eta   8.9 min
+{'loss': 0.0428, 'grad_norm': 1.7676342725753784, 'learning_rate': 2.8703436326884203e-06, 'epoch': 0.863960504662644}
+  step  3,200/3,646  loss 0.0480   57.7 min  eta   8.0 min
+{'loss': 0.048, 'grad_norm': 1.158501386642456, 'learning_rate': 2.5815766676292237e-06, 'epoch': 0.8776741634668129}
+  step  3,250/3,646  loss 0.0490   58.6 min  eta   7.1 min
+{'loss': 0.049, 'grad_norm': 1.523379921913147, 'learning_rate': 2.292809702570026e-06, 'epoch': 0.8913878222709819}
+  step  3,300/3,646  loss 0.0476   59.5 min  eta   6.2 min
+{'loss': 0.0476, 'grad_norm': 2.1584222316741943, 'learning_rate': 2.004042737510829e-06, 'epoch': 0.9051014810751509}
+  step  3,350/3,646  loss 0.0490   60.4 min  eta   5.3 min
+{'loss': 0.049, 'grad_norm': 1.0929361581802368, 'learning_rate': 1.7152757724516317e-06, 'epoch': 0.9188151398793198}
+  step  3,400/3,646  loss 0.0358   61.3 min  eta   4.4 min
+{'loss': 0.0358, 'grad_norm': 1.572476863861084, 'learning_rate': 1.4265088073924343e-06, 'epoch': 0.9325287986834887}
+  step  3,450/3,646  loss 0.0439   62.2 min  eta   3.5 min
+{'loss': 0.0439, 'grad_norm': 2.3250765800476074, 'learning_rate': 1.1377418423332372e-06, 'epoch': 0.9462424574876577}
+  step  3,500/3,646  loss 0.0452   63.2 min  eta   2.6 min
+{'loss': 0.0452, 'grad_norm': 1.0125420093536377, 'learning_rate': 8.4897487727404e-07, 'epoch': 0.9599561162918266}
+  step  3,550/3,646  loss 0.0394   64.0 min  eta   1.7 min
+{'loss': 0.0394, 'grad_norm': 1.0874896049499512, 'learning_rate': 5.602079122148427e-07, 'epoch': 0.9736697750959956}
+  step  3,600/3,646  loss 0.0466   65.0 min  eta   0.8 min
+{'loss': 0.0466, 'grad_norm': 1.7603565454483032, 'learning_rate': 2.714409471556454e-07, 'epoch': 0.9873834339001646}
+{'train_runtime': 3944.7884, 'train_samples_per_second': 88.729, 'train_steps_per_second': 0.924, 'train_loss': 0.10758592234949979, 'epoch': 1.0}
+saved /u/student/2025/cs25mtech11019/ber/student_resource/work/models/labse_ft in 67.7 min

@@ -1,0 +1,39 @@
+== job 38809 (ber_block) on cse-node012 at 2026-09-26 18:13:27
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 1/9: train / India / source3 -> /u/student/2025/cs25mtech11019/ber/student_resource/work/cand/labse0/train_India_source3.parquet
+883,188 S1 records x 2,115,547 source3 records in India
+loaded embeddings in 44s
+  queries     8,192/883,188    0.0 min  eta   1.1 min
+  queries   172,032/883,188    2.9 min  eta  12.0 min
+  queries   335,872/883,188    5.9 min  eta   9.6 min
+  queries   499,712/883,188    8.9 min  eta   6.8 min
+  queries   663,552/883,188   11.9 min  eta   3.9 min
+  queries   827,392/883,188   14.9 min  eta   1.0 min
+  queries   883,188/883,188   15.9 min  eta   0.0 min
+20,360,687 candidate pairs (23.1 per S1) in 17.1 min
+
+recall ceiling vs ground truth (1,579,298 true pairs, 883,188 S1 records)
+  k_fwd k_rev   recall   cands/S1
+      3     0   0.6938       3.00
+      3     1   0.8374       3.86
+      3     3   0.8655       8.28
+      3     5   0.8767      12.92
+      5     0   0.7518       5.00
+      5     1   0.8427       5.70
+      5     3   0.8677       9.83
+      5     5   0.8782      14.32
+      8     0   0.7726       8.00
+      8     1   0.8472       8.64
+      8     3   0.8700      12.48
+      8     5   0.8798      16.78
+     10     0   0.7803      10.00
+     10     1   0.8493      10.61
+     10     3   0.8712      14.33
+     10     5   0.8807      18.53
+     15     0   0.7930      15.00
+     15     1   0.8533      15.57
+     15     3   0.8735      19.04
+     15     5   0.8825      23.05
+done in 17.5 min

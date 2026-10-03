@@ -1,0 +1,17 @@
+== job 38892 (ber_encode) on cse-node010 at 2026-09-26 21:41:02
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 15/27: test source1 chunk 0 rows [0, 1000000) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse1/test_source1_000.npy
+read + cleaned 1,000,000 texts in 13s; e.g. ['zephay labs inc | 2621 cotten road, tyler, tx', 'vision partners corp | ia, iowa city, 1064 newton rd, unit 11']
+    100,000/1,000,000  1,049 rec/s  eta 14.3 min
+    200,000/1,000,000  1,054 rec/s  eta 12.6 min
+    300,000/1,000,000  1,055 rec/s  eta 11.1 min
+    400,000/1,000,000  1,054 rec/s  eta 9.5 min
+    500,000/1,000,000  1,054 rec/s  eta 7.9 min
+    600,000/1,000,000  1,053 rec/s  eta 6.3 min
+    700,000/1,000,000  1,053 rec/s  eta 4.7 min
+    800,000/1,000,000  1,052 rec/s  eta 3.2 min
+    900,000/1,000,000  1,053 rec/s  eta 1.6 min
+  1,000,000/1,000,000  1,053 rec/s  eta 0.0 min
+saved (1000000, 768) in 973s total

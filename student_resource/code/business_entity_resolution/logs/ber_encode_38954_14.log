@@ -1,0 +1,10 @@
+== job 39032 (ber_encode) on cse-node012 at 2026-09-27 03:26:38
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 14/27: train source3 chunk 5 rows [5000000, 5285603) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse2/train_source3_005.npy
+read + cleaned 285,603 texts in 15s; e.g. ['verazeta fka simon platinum orange | 1235 61st avenue, garrison, nd', 'navarro + pseny | 210 apache drive, paatoka, indiana']
+    100,000/285,603  1,107 rec/s  eta 2.8 min
+    200,000/285,603  1,104 rec/s  eta 1.3 min
+    285,603/285,603  1,105 rec/s  eta 0.0 min
+saved (285603, 768) in 279s total

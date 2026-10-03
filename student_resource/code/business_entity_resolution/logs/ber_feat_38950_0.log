@@ -1,0 +1,18 @@
+== job 38950 (ber_feat) on cse-node009 at 2026-09-27 00:53:35
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 16 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+normalized tables ready in 33s
+87,442,813 stored candidate pairs
+54,432,117 pairs after cut-off k_fwd=10, k_rev=3 (24.7 per S1) in 78s
+train rows 13,534,040 | val rows 6,779,058 | positives 11.090%
+  features   2,000,000/20,313,098  149s
+  features   4,000,000/20,313,098  175s
+  features   6,000,000/20,313,098  201s
+  features   8,000,000/20,313,098  226s
+  features  10,000,000/20,313,098  248s
+  features  12,000,000/20,313,098  272s
+  features  14,000,000/20,313,098  296s
+  features  16,000,000/20,313,098  320s
+  features  18,000,000/20,313,098  341s
+  features  20,000,000/20,313,098  364s
+  features  20,313,098/20,313,098  369s
+wrote /u/student/2025/cs25mtech11019/ber/student_resource/work/feat/labse1x/train.parquet in 6.2 min

@@ -1,0 +1,16 @@
+== job 39039 (ber_encode) on cse-node010 at 2026-09-27 03:42:14
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 21/27: test source2 chunk 4 rows [4000000, 4887273) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse2/test_source2_004.npy
+read + cleaned 887,273 texts in 22s; e.g. ['granite.com | elliot st, dartmouth, ma', 'wynlawchambers.com | no.87, #301, 3rdfloor, shresta bhumi sri krishna rajendra road, shankarapuram, bangalore, karnataka']
+    100,000/887,273  1,059 rec/s  eta 12.4 min
+    200,000/887,273  1,068 rec/s  eta 10.7 min
+    300,000/887,273  1,071 rec/s  eta 9.1 min
+    400,000/887,273  1,072 rec/s  eta 7.6 min
+    500,000/887,273  1,073 rec/s  eta 6.0 min
+    600,000/887,273  1,073 rec/s  eta 4.5 min
+    700,000/887,273  1,074 rec/s  eta 2.9 min
+    800,000/887,273  1,074 rec/s  eta 1.4 min
+    887,273/887,273  1,074 rec/s  eta 0.0 min
+saved (887273, 768) in 857s total

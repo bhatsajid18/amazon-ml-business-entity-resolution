@@ -1,0 +1,55 @@
+== job 38718 (ber_gpucheck) on cse-node012 at 2026-09-26 16:58:28
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+Sat Sep 26 16:58:31 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.158.01             Driver Version: 570.158.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           Off |   00000000:37:00.0 Off |                    0 |
+| N/A   35C    P0             28W /  250W |       0MiB /  16384MiB |      1%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla P100-PCIE-16GB           Off |   00000000:86:00.0 Off |                    0 |
+| N/A   33C    P0             33W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+torch 2.4.1+cu121 | built for CUDA 12.1
+GPU Tesla P100-PCIE-16GB | sm_60 | 15.9 GiB
+torch arch list: ['sm_50', 'sm_60', 'sm_70', 'sm_75', 'sm_80', 'sm_86', 'sm_90']
+bf16 supported: True  -> use fp16 autocast on P100
+fp16 matmul: 7.4 TFLOPS
+train source1:  2,206,821 records
+train source2:  5,034,616 records
+train source3:  5,285,603 records
+test  source1:  1,732,544 records
+test  source2:  4,887,273 records
+test  source3:  5,082,316 records
+/u/student/2025/cs25mtech11019/.conda/envs/ber/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+LaBSE tokens per S1 record: p50/p90/p95/p99 = [22, 36, 40, 47], max = 60, share > 64: 0.00%
+LaBSE tokens per S2 record: p50/p90/p95/p99 = [26, 44, 49, 58], max = 79, share > 64: 0.20%
+LaBSE fp16 encode: 940 records/s (batch 256, max_len 64), peak 2.4 GiB
+Some weights of XLMRobertaForSequenceClassification were not initialized from the model checkpoint at FacebookAI/xlm-roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+XLM-R base fp16 pair scoring: 362 pairs/s (batch 128, max_len 128), peak 0.8 GiB
+
+================ SUMMARY (1 GPU) ================
+records  train 12,527,040  test 11,702,133
+LaBSE encode all test :  3.46 h
+LaBSE encode all train:  3.70 h
+XLM-R on ALL test candidates (~4.3 crore pairs):  33.3 h
+XLM-R on 10% uncertain band:   3.3 h
+Divide by the number of GPUs you can run at once (jobs are sharded).

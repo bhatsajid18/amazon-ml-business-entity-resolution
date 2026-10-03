@@ -1,0 +1,15 @@
+== job 39054 (ber_block) on cse-node012 at 2026-09-27 04:12:36
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 6/9: test / India / source2 -> /u/student/2025/cs25mtech11019/ber/student_resource/work/cand/labse2/test_India_source2.parquet
+809,986 S1 records x 2,312,565 source2 records in India
+loaded embeddings in 38s
+  queries     8,192/809,986    0.0 min  eta   1.0 min
+  queries   172,032/809,986    2.6 min  eta   9.7 min
+  queries   335,872/809,986    5.3 min  eta   7.5 min
+  queries   499,712/809,986    8.0 min  eta   5.0 min
+  queries   663,552/809,986   10.7 min  eta   2.4 min
+  queries   809,986/809,986   13.1 min  eta   0.0 min
+18,196,118 candidate pairs (22.5 per S1) in 14.2 min
+done in 14.2 min

@@ -1,0 +1,8 @@
+== job 38954 (ber_encode) on cse-node009 at 2026-09-27 03:58:24
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 27/27: test source3 chunk 5 rows [5000000, 5082316) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse2/test_source3_005.npy
+read + cleaned 82,316 texts in 13s; e.g. ['co modern abrdn, | #108 broadway, lebanon, ohio', 'ss trading public limited | hn 680 h no-8-2-293/82/fii/b/24/313, shaikpet, hyderabad, tg']
+     82,316/82,316  1,078 rec/s  eta 0.0 min
+saved (82316, 768) in 94s total

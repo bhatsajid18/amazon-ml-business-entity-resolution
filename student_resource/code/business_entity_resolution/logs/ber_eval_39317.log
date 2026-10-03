@@ -1,0 +1,97 @@
+== job 39317 (ber_eval) on cse-node011 at 2026-09-27 19:21:37
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 8 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+validation pairs 10,080,098 | predicted matches 739,192 (t=0.75, t1=None)
+wrote /u/student/2025/cs25mtech11019/ber/student_resource/output/val_labse2g_matching_results.tsv (220,914 validation S1 entities)
+
+scored /u/student/2025/cs25mtech11019/ber/student_resource/output/val_labse2g_matching_results.tsv
+  S1 entities       : 220,914
+  MACRO F0.5        : 0.9826
+  precision (micro) : 0.9947
+  recall (micro)    : 0.9606
+  singletons        : 5.57% of entities, F0.5 0.9786
+  with matches      : F0.5 0.9828 | empty prediction on 0.34% of them
+  by country:
+               size    mean
+    country                
+    India     88331  0.9825
+    US       132583  0.9827
+
+(train_match.py reported 0.9826 for the same rows; the two should agree)
+
+--- WRONG MERGES (predicted, not true): 3,911 pairs; 12 examples
+  S1 S1-701451787 [US] Iveneon Vernal | NC, 851 Kenny Jordan Road, Tabor City
+   ~ S3-107095292 [US] Iveneon Vernal [Inc] | 
+  S1 S1-612031623 [US] Ridyne PLLC | 9513 Carterwood Court, Henrico County, VA
+   ~ S3-817446270 [US] Vrros Boa | 9513-D Carterwood Ct, Henrico County, Virginia
+  S1 S1-107885984 [India] Om Investments Private Limited | Manish Kumar Lp-873, Ladpur, Jhajjar, Haryana
+   ~ S2-292654070 [India] Mr Om Investments L.L.P. | MANISH KUMAR LP-873, LADPUR, JHAJJAR, Haryana
+  S1 S1-779688123 [US] Holt & Steinke L.L.C. | 1625 Scenic Loop, Round Rock, TX
+   ~ S2-560327165 [US] holt & steinke llc | RUND ROCK, PO BOX 3299, 1626 SCENIC LOOP, TX
+  S1 S1-327905041 [India] Real Power Private Limited | No.16, Kr Nagar, Kasthuri Nagar, 1St, Street, Korattur, Chennai, Tamil Nadu
+   ~ S2-839601727 [India] ராயல் ஃபுட் பிரைவேட் லிமிடெட் | NO. 16., CHENNAI, தமிழ்நாடு
+  S1 S1-646489755 [US] Wyatt & Stump Builders LLC | 19006 Short Road, Cheney, WA
+   ~ S3-884878078 [US] Walker Vdoya LLC | 19006 Short Rd, Cheney, Washington
+  S1 S1-501002671 [US] Wheat Sachem | 32 Turnmill Court, Nottingham, MD
+   ~ S2-249106376 [US] wheat sáchem | 
+  S1 S1-608617848 [India] Vertical International School of Rewari | C/O Sunil, Vill. Gindokhar, P. O. Boria Kamalpur, Rewari, Haryana
+   ~ S2-606102432 [India] Mr Vertical-International School of Rwmedlri LLP | NO 76 C/O SUNIL, VILL. GINDOKHAR, P. O. BORIA KAMALPUR, REWARI, Haryana
+  S1 S1-777443070 [India] Net Hospital | Plot No 1/C, Sy No.83/1, Hyderabad Knowledge City, Raidurgam, Shaikpet, Hyderaba
+   ~ S3-450466209 [India] M/s Net Hospntal Enterprises | Plot No 4/C, Sy No.83/1, Hyderabad Knowledge City, Raidurgam, Shaikpet, Hyderaba
+  S1 S1-967024222 [India] Mayur Hospital | Office No 501-A 5Th Floor Sr No 207/1A/1B/2 Phoenix Market City Mall East Court 
+   ~ S3-382175199 [India] Dr Mayur Hospital Limited | Office No 501-A 5Th Floor Sr No 207/1A/1B/5 Phoenix Market City Mall East Court 
+  S1 S1-547417654 [India] Shivam Management LLP | Gobra Station Road, P.O. Chanditala, P.S. Dankuni. Sub-Division: Serampore, Chan
+   ~ S2-258158941 [India] HOOGHLY  TECHTNOY | BLOCK E-175 VILL- GOBRA STATION ROAD, P.O.- CHANDITALA P.S.- CHANDITALA, SUB DIV
+  S1 S1-892199570 [India] VQ Services Associates | B 8 Paramveer Industrial Estate Pirangut Taluka Mulshi, Pune, Maharashtra
+   ~ S3-846724081 [India] VQV Services | महाराष्ट्र, B 8 Paramveer Industrial Estate Pirangut Taluka Mulshi, Poona, Pune
+
+--- MISSED, rejected by the matcher: 23,779 pairs; 12 examples
+  S1 S1-733430849 [India] Maa Brothers Private Limited | 2-5, Vattinagulapally Village, Rajendra Nagar, K.V.Rangareddy, Telangana
+   ~ S2-589874539 [India] MAA BROTHERS PRIVATE LIMITED | 
+  S1 S1-171331760 [US] Summit Arch Inc | 517 2nd Street, Unit 3, Augusta, KY
+   ~ S3-289291955 [US] Summit Arch Arch | 
+  S1 S1-314702331 [US] Reyna Crystal Galata P.C. | WI, 528 Shawnee Court, Village Of Deforest
+   ~ S2-65743815 [US] Reyna Crystal Galata Inc | 00528 SHAWNEE COURT, DE FOREST, WI
+  S1 S1-871209168 [US] Equinox Era, LLC | 5622 Fort Avenue, Lynchburg City, VA
+   ~ S3-371095390 [US] Equinox Era, LLC | 
+  S1 S1-931635207 [India] Roopya Brown Pvt Ltd | No 149/10 P Southern Park Biren Roy Raod (West) Lp-28/1/6/4, Kolkata, Howrah, We
+   ~ S2-910236297 [India] Roopya Pvt Ltd Services | 
+  S1 S1-284531843 [India] Everest Holdings | Madras-600 032, Industrial Estateguindy Madras-600 032, Chennai, Tamil Nadu, C-1
+   ~ S2-41894823 [India] EVEREST CO | 
+  S1 S1-25686435 [India] Sarvlok Vidyalaya | Shop 13 14 11 New Seal Lane, Howrah, West Bengal
+   ~ S3-395107148 [India] Sarvlok Vidyalaya [Ltd] | Shop 013 14 11 New Seal Lane, Howrah, পশ্চিমবঙ্গ
+  S1 S1-781278836 [US] Education Federation | 4352 Coventry Drive, Fargo, ND
+   ~ S2-509926656 [US] EDUCATION FMEDETAION | 
+  S1 S1-77013547 [US] Jurado Titan LLC | 1329 Florida Road, Pell City, AL
+   ~ S2-110392545 [US] JURAD0 TITAN [LLC] | 
+  S1 S1-494883234 [US] Ivenari Graphics | 5875 156th Way, Apple Valley, MN
+   ~ S2-725590991 [US] Ivenari Gráphics | 
+  S1 S1-436012166 [US] White Liberty Otg LLC | 345 Forest Creek Drive, Seneca, SC
+   ~ S3-824691201 [US] Veocira | 345- Forest Creek Drive, Seneca, South Carolina
+  S1 S1-792570242 [US] Golden Wireless Solutions Clinic | MD, 7824 Briardale Terrace, Derwood
+   ~ S2-681826057 [US] Deltabelo | 7824 BRIARDLAE TER, DERWOOD, MD
+
+--- MISSED, not in the candidate set (blocking): 6,409 pairs; 12 examples
+  S1 S1-704961620 [US] Orthopedic Choice Care Associates | 276 State Park Trail, Walkersville, WV
+   ~ S2-64534973 [US] ORTHOPEDIC CHOICE CARE ASSOCIATES INC | 
+  S1 S1-279564689 [US] Saint Church | 113 B Ave, TX, Whitney
+   ~ S2-992829478 [US] Saint  Church | 
+  S1 S1-697931451 [US] FT Averin | 1730 Stonebridge Drive, Unit 40, St George City, UT
+   ~ S3-253099037 [US] FT Center | 
+  S1 S1-536919092 [US] Scholarship Program | Winston, OR, 71 Peach Lane
+   ~ S3-103804604 [US] Scholarship Ptrgm | 
+  S1 S1-657795380 [US] Patriot Group | 3358 Long Branch Road, Erin, TN
+   ~ S2-586857061 [US] Patriot  Group | 
+  S1 S1-936701388 [US] Orthopedic Physicians of Lawrenceburg | 193 Ware Road, Lawrenceburg, TN
+   ~ S3-798566688 [US] Orthopedic  Physicians Associates | 
+  S1 S1-947630045 [India] Shourya & Brothers Private Limited | No.52, Shop3, Sri Matha, Nilaya, 16Main A Cross, Bangalore South, Bangalore Rura
+   ~ S3-126068740 [India] Smt Veodelta | No 52, Bangalore South, Bangalore Rural, KA
+  S1 S1-779712821 [US] East National Tree | 237 Faith Road, Mooresville, NC
+   ~ S3-12308001 [US] East Tree Service | 
+  S1 S1-742089135 [India] Rkg Traders Corporation | 41, Pantheon Road, Egmore, Egmore Nungambakka, Chennai, Tamil Nadu
+   ~ S3-823365968 [India] Rkg Traders | 
+  S1 S1-649240561 [US] Tri-State Alliance | 633 Selby Avenue, Unit Unit C, Saint Paul, MN
+   ~ S2-614886701 [US] Tri-State Alliance Inc. | 
+  S1 S1-973585965 [India] Nls Producer Private Limited | Office No 1108 Haware Infotech Park, Plot No 39/Vashi: Navi Mumbai, Thane, Mahar
+   ~ S3-607951968 [India] Nls Producer Private | 
+  S1 S1-822481521 [US] Sanchez Super LLC | 6800 Oriole Avenue, Chicago, IL
+   ~ S3-460996744 [US] Sanchez LLC [Service] | 

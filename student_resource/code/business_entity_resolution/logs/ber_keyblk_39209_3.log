@@ -1,0 +1,8 @@
+== job 39216 (ber_keyblk) on cse-node009 at 2026-09-27 14:26:57
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+task 3: train / US / source3 -> /u/student/2025/cs25mtech11019/ber/student_resource/work/cand/labse2k/train_US_source3.parquet
+1,058,765 S1 x 3,170,056 source3 records
+1,564,850 usable keys -> 34,113,214 key pairs in 104s
+embedding pairs 24,314,975 | key-only pairs added 7,727,422 (7.30 per S1)
+recall ceiling (1,892,155 true pairs): embedding 0.9926 -> with key channel 0.9929 | cands/S1 23.0 -> 30.3
+done in 3.5 min

@@ -1,0 +1,82 @@
+== job 39211 (ber_train) on cse-node010 at 2026-09-27 17:20:04
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 16 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+53,222,137 train rows (5.68% positive), 13,343,936 val rows, 79 features, loaded in 69s
+Training until validation scores don't improve for 50 rounds
+[50]	val's binary_logloss: 0.00941651	val's auc: 0.999755
+[100]	val's binary_logloss: 0.00632097	val's auc: 0.999851
+[150]	val's binary_logloss: 0.00569393	val's auc: 0.999879
+[200]	val's binary_logloss: 0.00542265	val's auc: 0.99989
+[250]	val's binary_logloss: 0.00525661	val's auc: 0.999897
+[300]	val's binary_logloss: 0.00515804	val's auc: 0.999901
+[350]	val's binary_logloss: 0.00509862	val's auc: 0.999903
+[400]	val's binary_logloss: 0.00505927	val's auc: 0.999905
+[450]	val's binary_logloss: 0.00502591	val's auc: 0.999906
+[500]	val's binary_logloss: 0.00500113	val's auc: 0.999907
+[550]	val's binary_logloss: 0.00498053	val's auc: 0.999908
+[600]	val's binary_logloss: 0.00495899	val's auc: 0.999909
+[650]	val's binary_logloss: 0.00494365	val's auc: 0.999909
+[700]	val's binary_logloss: 0.00493108	val's auc: 0.99991
+[750]	val's binary_logloss: 0.00492155	val's auc: 0.99991
+[800]	val's binary_logloss: 0.00491306	val's auc: 0.99991
+[850]	val's binary_logloss: 0.00490547	val's auc: 0.99991
+[900]	val's binary_logloss: 0.00489679	val's auc: 0.999911
+[950]	val's binary_logloss: 0.00489059	val's auc: 0.999911
+[1000]	val's binary_logloss: 0.00488294	val's auc: 0.999911
+[1050]	val's binary_logloss: 0.00487957	val's auc: 0.999911
+[1100]	val's binary_logloss: 0.00487571	val's auc: 0.999911
+[1150]	val's binary_logloss: 0.00487141	val's auc: 0.999911
+[1200]	val's binary_logloss: 0.00486842	val's auc: 0.999911
+[1250]	val's binary_logloss: 0.00486674	val's auc: 0.999911
+[1300]	val's binary_logloss: 0.00486431	val's auc: 0.999911
+[1350]	val's binary_logloss: 0.00486181	val's auc: 0.999911
+[1400]	val's binary_logloss: 0.00486059	val's auc: 0.999912
+[1450]	val's binary_logloss: 0.00485849	val's auc: 0.999912
+[1500]	val's binary_logloss: 0.00485695	val's auc: 0.999912
+Did not meet early stopping. Best iteration is:
+[1500]	val's binary_logloss: 0.00485695	val's auc: 0.999912
+trained 1500 rounds in 69.1 min
+validation: 220,914 S1 entities | recall ceiling of candidates 0.9919
+
+top decision settings on validation:
+   t  t1      f05  precision   recall  empty_frac
+0.75 NaN 0.983972   0.995156 0.963268    0.057615
+0.70 NaN 0.983921   0.994168 0.965587    0.057163
+0.80 NaN 0.983804   0.996068 0.960367    0.058113
+0.65 NaN 0.983700   0.993116 0.967607    0.056787
+0.60 NaN 0.983249   0.991935 0.969314    0.056361
+0.85 NaN 0.983115   0.996988 0.956382    0.058729
+0.55 NaN 0.982707   0.990700 0.970946    0.055891
+0.75 0.3 0.982414   0.994264 0.963676    0.053184
+0.70 0.3 0.982336   0.993342 0.965925    0.053184
+0.80 0.3 0.982234   0.995094 0.960844    0.053184
+
+BEST t=0.75 t1=None: macro F0.5 0.9840 | precision 0.9952 | recall 0.9633 | empty lists 5.76% (singletons 5.57%)
+                       size    mean
+country bucket                     
+India   has matches   83451  0.9844
+        singleton      4880  0.9789
+US      has matches  125150  0.9839
+        singleton      7433  0.9833
+
+feature importance (gain, top 20):
+cos               0.6302
+rev_rank          0.1672
+nums_tset         0.0471
+m_c_best          0.0272
+name_tsort        0.0111
+idf_extra         0.0080
+nums_tset_dmax    0.0065
+m_s1_best_src     0.0065
+len_name_c        0.0062
+c_gap12           0.0053
+name_tfidf_rk     0.0049
+addr_idf_prec     0.0047
+addr_idf_extra    0.0046
+len_ratio_name    0.0042
+s1_rank_all       0.0038
+name_partial      0.0038
+addr_tset         0.0031
+skel_tset         0.0027
+addr_tset_rk      0.0025
+name_tfidf        0.0022
+saved model + decision to /u/student/2025/cs25mtech11019/ber/student_resource/work/models in 74.3 min

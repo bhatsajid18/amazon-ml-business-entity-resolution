@@ -1,0 +1,17 @@
+# Python 3.11. setup_env.sh first installs torch==2.4.1+cu121 from the PyTorch index
+# (the build proven on the P100 nodes); the torch pin below is satisfied by it.
+# requirements.lock.txt holds the full frozen environment (pip freeze).
+torch==2.4.1
+numpy==1.26.4
+pandas==2.2.2
+pyarrow==17.0.0
+scikit-learn==1.5.1
+transformers==4.44.2
+sentence-transformers==3.0.1
+accelerate==0.33.0
+datasets==2.21.0
+faiss-cpu==1.8.0
+lightgbm==4.5.0
+rapidfuzz>=3.9,<4
+indic-transliteration>=2.3
+tqdm>=4.66

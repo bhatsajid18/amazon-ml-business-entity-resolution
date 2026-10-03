@@ -1,0 +1,97 @@
+== job 39155 (ber_eval) on cse-node010 at 2026-09-27 11:44:23
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 8 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+validation pairs 6,271,456 | predicted matches 736,607 (t=0.7, t1=None)
+wrote /u/student/2025/cs25mtech11019/ber/student_resource/output/val_labse2_matching_results.tsv (220,914 validation S1 entities)
+
+scored /u/student/2025/cs25mtech11019/ber/student_resource/output/val_labse2_matching_results.tsv
+  S1 entities       : 220,914
+  MACRO F0.5        : 0.9767
+  precision (micro) : 0.9907
+  recall (micro)    : 0.9534
+  singletons        : 5.57% of entities, F0.5 0.9605
+  with matches      : F0.5 0.9776 | empty prediction on 0.39% of them
+  by country:
+               size    mean
+    country                
+    India     88331  0.9759
+    US       132583  0.9772
+
+(train_match.py reported 0.9767 for the same rows; the two should agree)
+
+--- WRONG MERGES (predicted, not true): 6,816 pairs; 12 examples
+  S1 S1-654641705 [India] Cloud Platform LLP | Bangalore, N0 55, Bangalore South, Karnataka, S V Complex, K R Road
+   ~ S2-194489096 [India] CLOUD CLOUD PLATFORM LLP | 
+  S1 S1-61341725 [India] Quanta Polytechnic | Flat No 401, Shanthi Aavaas Mithra Hil, Tirumalagiri, Hyderabad, Telangana
+   ~ S2-225601957 [India] Shri Quanta  (Polytechnic) | 
+  S1 S1-204204802 [US] Dulin Consumer | 2205 Maverick Way, Mesquite, TX
+   ~ S2-550012453 [US] Dulin Consumer Ltd | 220 MAVERICK WAY, MESQUITE, TX
+  S1 S1-373091134 [US] Novial Liquidity Inc | 4022 Parkside Avenue, Chicago, IL
+   ~ S2-589170329 [US] NOVIEL  LIQUIDITY INC. | 402 PARKSIDE AVENUE, IL, CHICAGO
+  S1 S1-211031767 [US] Nertie Miller, Ph.D. | Syracuse, NY, 1111 Westcott Street
+   ~ S3-208702910 [US] Nertie Míller, Ph.D. | 
+  S1 S1-802449094 [India] Pune Creations Private Limited | Sr. No. 528, Donje, Gorhewadi, Tal - Haveli, Dist - Pune, Pune, Maharashtra
+   ~ S2-416919789 [India] Pune Limited Private Creations | 
+  S1 S1-836218174 [India] Innovative Projects Pvt Ltd | No.4 & 5, 5Th Crs, Vivekananda Street, B Narayanapura, Uday Ngr, Dooravaninagar 
+   ~ S3-728622014 [India] Innovative Pvt Projects Ltd | 
+  S1 S1-729141714 [US] Lyryn Materials | 2950 Recker Road, AZ, Mesa, Unit 1049
+   ~ S2-651202568 [US] Lyryns Matearias | 2950 RECKER RD, MESA, AZ
+  S1 S1-701245049 [India] Meenaksh Plast Pvt Ltd | 303 The Agrawal Corporate, House 1 Sanjana Park, Indore, Madhya Pradesh
+   ~ S3-86953841 [India] Meenaksha Pvt Ltd  Partners | 303 The Agrawal Coprorate, House 1 Sanjana Park, Indore, NULL, MP
+  S1 S1-466350268 [US] Barker Starwood | 445 Paine Turnpike, Berlin, VT
+   ~ S3-239596270 [US] Andrew Starwood | 445 Paine Tpke, Berlin, Vermont
+  S1 S1-547417654 [India] Shivam Management LLP | Gobra Station Road, P.O. Chanditala, P.S. Dankuni. Sub-Division: Serampore, Chan
+   ~ S2-258158941 [India] HOOGHLY  TECHTNOY | BLOCK E-175 VILL- GOBRA STATION ROAD, P.O.- CHANDITALA P.S.- CHANDITALA, SUB DIV
+  S1 S1-201713744 [US] Newburn Cornerstone Net, LLC | 5335 Wayne Street, Unit B, Raleigh, NC
+   ~ S2-410903347 [US] Newburn Cornerstone Data, LLC | 5348 WAYNE STREET, RALEIGH, NC
+
+--- MISSED, rejected by the matcher: 27,745 pairs; 12 examples
+  S1 S1-819455043 [US] Allied Tech | 870 Spaulding Avenue, Fl 0, Wichita, KS
+   ~ S3-464286269 [US] Allied Tech Ltd | www.alliedtec.com | 701- Spaulding Ave, Fl 0, Wichita, Kansas
+  S1 S1-513911937 [US] Cunningham Family Practice | 3608 Bear Creek Ridge Court, Wentzville, MO
+   ~ S2-955689026 [US] Cunningham Family Practice Corp | 360 BEAR CREEK RIDGE CT, WENTZVILLE, MO
+  S1 S1-158437732 [US] Torres Steers | 11113 Stoneleigh Drive, Noblesville, IN
+   ~ S2-646096993 [US] torres steers | 
+  S1 S1-171214662 [US] Delta Institute | 1212 Azalea Street, Demotte, IN
+   ~ S3-821995332 [US] Delta  Insttiute | 
+  S1 S1-590734890 [US] Congregation Methodist Church | MD, 1326 Sweetbriar Lane, Bel Air
+   ~ S2-122377884 [US] CONGREGATION METHODIST  CHURCH CO | 
+  S1 S1-812313651 [US] Bluestein & Copeland Partners LLC | 4000 Mckenzie Drive, Unit Unit 8, Mandan, ND
+   ~ S3-223988517 [US] Bluestein & & Copeland LLC Partners | 004000 Mckenzie Drive, N/A, Mandan, North Dakota
+  S1 S1-975575162 [US] Jolynn Sampson Skin Care Inc. | 218 Reed Lane, Wythe County, VA
+   ~ S2-545212419 [US] JOLYNN SAMPSON SAMPSON SKIN CARE INC. | 36 REED LN, WYTHEVILLE, VA
+  S1 S1-811920284 [US] Coex Airport LP | 1701 Tipton Road, Muscatine, IA
+   ~ S3-107627079 [US] Korectodelta | 1701 Tipton Road, Muscatine, Iowa
+  S1 S1-203153255 [US] Luman Malt | 4907 Sandhill Drive, Sugar Land, TX
+   ~ S3-311346903 [US] Luman Services | Texas, 8907 Sandhill Drive, Sugar Lannd
+  S1 S1-634566619 [US] Girard Cannabis | 855 1543, Moore, TX
+   ~ S2-608386903 [US] 6irard Cannabis Inc. | 856 1543, MOORE, TX
+  S1 S1-752903823 [US] Garcia and Williams Inc | 60356 49, Lineville, AL
+   ~ S3-255170758 [US] Garcia Garcia and Williams | 60535 49, Lineville, Alabama
+  S1 S1-283350465 [India] Enjay Advisors | B 1114, Knightsbridge Apartment, Itpl Road Aecs Layout, Bangalore North, Bangalo
+   ~ S2-73147743 [India] Enjay Center | 
+
+--- MISSED, not in the candidate set (blocking): 7,933 pairs; 12 examples
+  S1 S1-296841477 [US] Womens Health Clinic of Fayetteville Inc. | 249 Rosemary Drive, Fayetteville, NC
+   ~ S2-290802069 [US] Womens Health Clinic of | 
+  S1 S1-550895879 [US] Nevue Inc. | 3233 Libby Street, Phoenix, AZ
+   ~ S2-648433229 [US] Nevue | 
+  S1 S1-791979623 [India] Swift Infotech Pvt Ltd | Wipro House, 6Th Floor, No. 8, 7Th Main 80 Feet Road, Kormangala 1St Block, Bang
+   ~ S2-263903756 [India] Shri Swift Infotech Pvt | 
+  S1 S1-884125630 [US] Great Fellowship | 5038 48th Avenue, Seattle, WA
+   ~ S3-319382696 [US] Great Fellowship Enterprises | 
+  S1 S1-425234612 [India] Kiran Travels Ltd | Gali No 3 Goindwal By Pass Colony Baba Bhindi Chand, Tarn Taran, Amritsar, Punja
+   ~ S3-921420159 [India] Kiran Trávels Ltd | 
+  S1 S1-324928598 [US] Enis | 7080 Allen Road, Westfield, NY
+   ~ S3-290996466 [US] enis.com | 
+  S1 S1-313747048 [US] Metropolitan Project | 5618 Billy Casper Drive, Billings, MT
+   ~ S2-36571146 [US] Metropolitan Proeasct | 
+  S1 S1-628603546 [US] Palmer Solid Co | 28801 64th Avenue, Stanwood, WA
+   ~ S3-650956613 [US] Palmer Sli Có | 
+  S1 S1-174878468 [India] Royal Management Private Limited | S/9 Balaji Centre Second Floor Opp: Gurukul Mandia Drive In Road Mem, Nagar, Ahm
+   ~ S2-155409268 [India] Mr Royal Management Private Limited | 
+  S1 S1-221161509 [US] Citadel LLC | 2840 Jordan Pointe Boulevard, Apex, NC
+   ~ S2-639876231 [US] Citadel LLC & Co | 
+  S1 S1-973585965 [India] Nls Producer Private Limited | Office No 1108 Haware Infotech Park, Plot No 39/Vashi: Navi Mumbai, Thane, Mahar
+   ~ S3-607951968 [India] Nls Producer Private | 
+  S1 S1-409852482 [India] Dream Supreme Infrastructure Private Limited | Kanpur, 492, Kanpur Nagar, Uttar Pradesh, Amiliha, G.T. Road (N.H. 91)
+   ~ S2-437471513 [India] DREAM SDPREEME INFRASTRUCTURE PRIVATE  LIMITED | 

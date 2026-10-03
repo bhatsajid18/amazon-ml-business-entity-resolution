@@ -1,0 +1,15 @@
+== job 39034 (ber_encode) on cse-node012 at 2026-09-27 03:31:01
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 16/27: test source1 chunk 1 rows [1000000, 1732544) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse2/test_source1_001.npy
+read + cleaned 732,544 texts in 11s; e.g. ['thrissur agro corporation | building no: 36/2508, old: 25/162, chiriyankandath building, chembottil lan, e, thrissur, kerala', 'krishna industries pvt ltd | shop no.9, first floor, d.no.27, panchayat main road, perungudi, chennai, tamil nadu']
+    100,000/732,544  1,032 rec/s  eta 10.2 min
+    200,000/732,544  1,033 rec/s  eta 8.6 min
+    300,000/732,544  1,035 rec/s  eta 7.0 min
+    400,000/732,544  1,036 rec/s  eta 5.4 min
+    500,000/732,544  1,037 rec/s  eta 3.7 min
+    600,000/732,544  1,037 rec/s  eta 2.1 min
+    700,000/732,544  1,037 rec/s  eta 0.5 min
+    732,544/732,544  1,037 rec/s  eta 0.0 min
+saved (732544, 768) in 725s total

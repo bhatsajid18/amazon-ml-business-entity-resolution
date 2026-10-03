@@ -1,0 +1,23 @@
+== job 39212 (ber_predict) on cse-node010 at 2026-09-27 18:34:32
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 16 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+scored 103,772,953 candidate pairs in 2305s
+decision t=0.75 t1=None: 5,812,400 matches
+S1 entities 1,732,544 | with >=1 match 94.31% | mean matches 3.35
+    France:   259,452 S1 | empty  5.47% | mean 3.32
+     India:   809,986 S1 | empty  5.70% | mean 3.36
+        US:   663,106 S1 | empty  5.77% | mean 3.36
+wrote /u/student/2025/cs25mtech11019/ber/student_resource/output/matching_results.tsv
+      /u/student/2025/cs25mtech11019/ber/student_resource/output/candidate_pairs.tsv
+      copy in /u/student/2025/cs25mtech11019/ber/student_resource/output/history/labse2k_20260927_191555
+
+--- validate_submission.py ---
+ML Challenge 2026 — submission validator
+  test dir: /u/student/2025/cs25mtech11019/ber/student_resource/dataset/test
+  required S1 entities: 1732544
+  matching_results.tsv: 1732544 rows (98627 empty, 1633917 non-empty).
+  candidate_pairs.tsv: 1732544 rows (0 empty, 1732544 non-empty).
+
+WARNING: ID-existence check is OFF (the default) — not checking that matched/candidate IDs exist in the test set. Every other rule is still checked. Re-run with --check-ids to enable it (needs test_source2/3.tsv; uses more memory). A nonexistent ID only lowers your score, never rejects your submission.
+PASS — no blocking issues found. Safe to submit.
+
+done in 42.7 min

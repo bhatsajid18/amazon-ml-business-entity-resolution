@@ -1,0 +1,17 @@
+== job 38880 (ber_encode) on cse-node011 at 2026-09-26 21:20:53
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 3/27: train source2 chunk 0 rows [0, 1000000) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse1/train_source2_000.npy
+read + cleaned 1,000,000 texts in 23s; e.g. ['राम मार्केटिंग प्राइवेट लिमिटेड | kh no. -570/13, new delhi, west delhi, delhi', '-- holloway peak inc seafood | 105 elm st, morganton, nc']
+    100,000/1,000,000  615 rec/s  eta 24.4 min
+    200,000/1,000,000  616 rec/s  eta 21.6 min
+    300,000/1,000,000  616 rec/s  eta 18.9 min
+    400,000/1,000,000  617 rec/s  eta 16.2 min
+    500,000/1,000,000  616 rec/s  eta 13.5 min
+    600,000/1,000,000  615 rec/s  eta 10.8 min
+    700,000/1,000,000  615 rec/s  eta 8.1 min
+    800,000/1,000,000  614 rec/s  eta 5.4 min
+    900,000/1,000,000  614 rec/s  eta 2.7 min
+  1,000,000/1,000,000  615 rec/s  eta 0.0 min
+saved (1000000, 768) in 1658s total

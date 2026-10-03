@@ -1,0 +1,17 @@
+== job 39038 (ber_encode) on cse-node011 at 2026-09-27 03:42:14
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 20/27: test source2 chunk 3 rows [3000000, 4000000) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse2/test_source2_003.npy
+read + cleaned 1,000,000 texts in 23s; e.g. ['legacy telecom ventures corp | 00343 david humphreys rd, derby cdp, ct', 'soque unified living corp | 752 1100, roanoke, in']
+    100,000/1,000,000  1,069 rec/s  eta 14.0 min
+    200,000/1,000,000  1,071 rec/s  eta 12.5 min
+    300,000/1,000,000  1,073 rec/s  eta 10.9 min
+    400,000/1,000,000  1,072 rec/s  eta 9.3 min
+    500,000/1,000,000  1,073 rec/s  eta 7.8 min
+    600,000/1,000,000  1,071 rec/s  eta 6.2 min
+    700,000/1,000,000  1,072 rec/s  eta 4.7 min
+    800,000/1,000,000  1,073 rec/s  eta 3.1 min
+    900,000/1,000,000  1,072 rec/s  eta 1.6 min
+  1,000,000/1,000,000  1,072 rec/s  eta 0.0 min
+saved (1000000, 768) in 967s total

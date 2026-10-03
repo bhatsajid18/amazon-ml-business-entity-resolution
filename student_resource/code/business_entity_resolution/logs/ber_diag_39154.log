@@ -1,0 +1,219 @@
+== job 39154 (ber_diag) on cse-node012 at 2026-09-27 12:01:24
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+             S1  cand/S1  match/S1   empty  pairs in [.3,.7]  S1 best in [.3,.7]  S2 assigned  S3 assigned  sel prob<0.85
+country                                                                                                                  
+France   259452  29.4481    3.3587  0.0526            0.0113              0.0127       0.6025       0.6118         0.0358
+India    809986  27.9823    3.3531  0.0568            0.0056              0.0063       0.5703       0.5809         0.0215
+US       663106  27.3698    3.3365  0.0576            0.0048              0.0052       0.5714       0.5876         0.0188
+
+--- 30 random France S1 records with their top candidates (* = predicted match)
+
+S1 S1-461261147  Jonquilles Ehpad EURL | 55 Rue d'Iéna, Nantes, Pays de la Loire
+ * 1.000  S3-442222581  Jonquilles Éhpad EURL | Nantes, 55 Rue D'iena
+ * 1.000  S3-477341919  Jonquilles Èhpad EURL | 55 Rue D'iena, Nantes
+ * 1.000  S2-649137504  JONQUILLES  EHPAD EURL | 55 R D'IÉNA, NANTES, Loire-Atlantique
+ * 1.000  S3-640883546  EURL Jonquilles Ehpad | 55 Rue D'dena, Nantes
+ * 1.000  S2-981363813  jonquillesehpadeurl.com | 55 RUE D'IENA, NANTES, Loire-Atlantique
+
+S1 S1-565161819  Locale Service EURL | 8 Passage de la Villa, Bordeaux, Nouvelle-Aquitaine
+ * 1.000  S3-128231162  EURL Locale Service | 8 Passage De La Villa, Bordeaux
+ * 1.000  S3-211082923  Locale | 8 Passage de la Villa, Bordeaux, Nouvelle-Aquitaine
+ * 0.998  S3-771962043  @localeservice | 8 Passage De La Villa, Bordeaux
+   0.005  S3-35593086  Ets Regionale EURL | Bordeaux, 30 Passage De La Villa, Nouvelle-Aquitaine
+   0.003  S2-582877017  Locale Parents | 9 PASSAGE DE LA VILLA, BORDEAUX
+
+S1 S1-983673440  Tourcoing Institut SARL | 15 Rue Haute, Tourcoing, Hauts-de-France
+ * 0.999  S2-726554217  Tourcoing Institut | 15 RUE HAUTE, TOURCOING, Nord
+ * 0.999  S3-92723822  Tourcoing Ingtitut SARL | 15 Rue Haute, Tourcoing
+ * 0.998  S2-778944557  SARL Tourcoing Instïtut | Nord, 15 R HAUTE, Tourcoing
+   0.520  S2-340874338  Tourcoing Institut SARL | 15 R. DE LEERS, TOURCOING, Nord
+   0.365  S2-107102680  Tourcoing Institut SA | 15 RUE DE LEERS, TOURCOING, Nord
+
+S1 S1-17570554  XZH Fetes SASU | 32 Bis Rue du Petit Village, Saint-Herblain, Pays de la Loire
+ * 1.000  S2-191688782  XZH Fêtes SASU | 32 BIS RUE DU PETIT VILLAGE, Loire-Atlantique, SAINT-HERBLAIN
+ * 1.000  S2-656518200  XZH Fetes S.A.S.U. | 32 BIS RUE DU PETIT VILLAGE, ST.-HERBLAIN, Loire-Atlantique
+ * 1.000  S3-992860568  XZH Fetes | 32 Bis R Du Petit Village, Saint-herblain, Pays de la Loire
+ * 1.000  S2-566165178  S.A.S.U. XZH Fetes | 32 BIS R DU PETIT VLILAGE, Saint-Herblain, Loire-Atlantique
+ * 0.999  S2-271498632  XZH Fetes | 32BIS RUE DU PETIT VILLAGE, SAINT-HERBLAIN, Loire-Atlantique
+
+S1 S1-573193806  Dinteret Club SARL | Nouvelle-Aquitaine, Bordeaux, 28 Rue Videau
+ * 1.000  S3-624937892  Dinteret Club SARL | 28 Rue Videau, Bordeaux
+ * 1.000  S2-244041414  SARL Dinteret Çlub | Bordeaux, Nouvelle-Aquitaine, N°28 RUE VIDEAU
+ * 1.000  S2-454056181  dinteret club sarl | N°28 R. VIDEAU, BORDEAUX, Nouvelle-Aquitaine
+ * 1.000  S2-182878754  Dinteret Club S.A.R.L. | BORDEAUX, Nouvelle-Aquitaine, N°28 R. VIDEAU
+ * 1.000  S3-65602116  Dinteret-Club | Bordeaux, 28 R. Videau
+
+S1 S1-721440426  Clarte Culturelle SAS | 26 Rue Archimède, Roubaix, Hauts-de-France
+ * 1.000  S2-8104787  clarte culturelle sas | 26 RUE ARCHIMEDE, ROUBAIX
+ * 1.000  S3-621654396  Clarte Culturelle | N° 26 Rue Archimede, Roubaix, Hauts-de-France
+ * 1.000  S2-929975012  CLARTE CULTURELLE | 26 RUE ARCHIMEDE, ROUBAIX
+ * 1.000  S2-153265795  SAS Clarte Culturelle | 26 R. ARCHIMEDE, Roubaix
+   0.623  S3-668922275  Clarte SAS [Culturelle] | 
+
+S1 S1-551637630  Collège Nicolas | Pessac, Nouvelle-Aquitaine, 15 Rue Louis Aragon
+ * 1.000  S2-792450979  COLLÈGE NICOLAS | 15 R LOUIS ARAGON, PESSAC, Gironde
+ * 1.000  S3-911567505  collège nicolas | 15 Rue Louis Aragon, Pessac, Nouvelle-Aquitaine
+ * 1.000  S3-893914123  Korveo formerly: Collège Nicolas | 15 Rue Louis Aragon, Pessac, Nouvelle-Aquitaine
+   0.506  S2-600929145  CN | 15 R LOUIS ARAGON, Pessac, Gironde
+   0.247  S2-26369531  Collège Nicolas SNC | 36 RUE LOUIS ARAGON, PESSAC
+
+S1 S1-380362691  Exposition Jeunes | 201 Rue de Saint-Genès, Bordeaux, Nouvelle-Aquitaine
+ * 1.000  S2-634970506  Exposition Jeunes | 201 R DE SAINT-GENES, BORDEAUX
+ * 1.000  S2-386155330  EXPOSITION JEUNES | 201 R DE SAINT-GENS, BORDEAUX
+ * 1.000  S2-252659487  Exposition Jëunes | 201 R. DE SAINT-GENÈS, BORDEAUX
+ * 1.000  S3-702350223  Exposition Jëunes | Bordeaux, Gironde, 201 R. De Saintg-enès
+ * 0.960  S2-87418834  Exposition + Associés | 201 RUE DE SAINT-GENÈS, BORDEAUX
+
+S1 S1-664579782  Fédération des Viet | 82 BIS Rue d'Anjou, Saint-Nazaire, Pays de la Loire
+ * 1.000  S2-599893360  Fédération des Viet | 82 BIS RUE D'ANJOU, SAINT-NAZAIRE
+ * 1.000  S3-404849630  Fédération Des Viet | Pays de la Loire, 82bis R D'anjou, Saint-nazaire
+ * 1.000  S2-354066421  Fédération Des Viet | 82BIS RUE D'ANJOU, SAINT-NAZAIRE
+ * 0.966  S3-65552363  Fédération Des Viet SASU | 82 Bis R. D'anjou, Saint-nazaire, Pays de la Loire
+   0.038  S2-984948637  Solhalovera | RUE D'ANJOU, Saint-Nazaire, Pays de la Loire
+
+S1 S1-813215336  Roubaix Club SARL | 48 Rue Dombasle, Roubaix, Hauts-de-France
+ * 1.000  S3-39303171  Roubaix Club SARL | 48 Rue Dombasle, Roubaix, Hauts-de-France
+ * 1.000  S2-916240796  ROUBAIX CLUB SARL | 48 R DOMBASLE, ROUBAIX
+ * 1.000  S3-267783333  Roubaix SARL Club | Hauts-de-France, Roubaix, 48 Rue Dombasle
+   0.365  S2-889942312  Roubaix SARL-Cie | 48 RUE DE L'HOMMELET, ROUBAIX, Hauts-de-France
+   0.138  S3-156193321  Roubaix Club | 48 Rue De Recroi, Roubaix, Nord
+
+S1 S1-281087891  Ets Orange SARL | Saint-Herblain, 10 Rue Paul Dukas, Pays de la Loire
+ * 1.000  S2-89332470  Ets Orange (SARL) | 10 RUE PAUL DUKAS, SAINT-HERBLAIN, Loire-Atlantique
+ * 1.000  S2-137382193  ETS-ORANGE SARL | 10 RUE PAUL DUKAS, SAINT-HERBLAIN, Loire-Atlantique
+ * 1.000  S3-980991318  Ets Orange Sarl | 10 Rue Paul Dukas, Saint-herblain, Loire-Atlantique
+ * 0.903  S2-656408996  eorange.com | 10 R. PAUL DUKAS, Saint-Herblain, Loire-Atlantique
+   0.311  S2-668427087  Lumvera | 10 RUE PAUL DUKAS, Saint-Herblain, Loire-Atlantique
+
+S1 S1-129802256  Bordeaux Club SARL | 26 Rue Achard, Bordeaux, Nouvelle-Aquitaine
+ * 0.999  S2-990422879  SARL Bordeaux Club | 26 R ACHARD, Bordeaux, Gironde
+ * 0.994  S2-934494663  Bordeaux SARL France | 26 R ACHARD, BORDEAUX, Gironde
+ * 0.992  S2-633082824  Bordeaux  Club | 26 RUE ACHARD, BORDEAUX, Gironde
+   0.682  S2-917123241  Bordeaux Club SARL | 26 R. GARAT, BORDEAUX, Nouvelle-Aquitaine
+   0.128  S3-434309669  Club de Bb SARL | 43 Rue Achard, Bordeaux, Nouvelle-Aquitaine
+
+S1 S1-575600039  DF Santé SAS | Lille, 46 Rue Eugène Descamps, Hauts-de-France
+ * 1.000  S3-370558244  DF Santé | Hauts-de-France, 46 Rue Eugène Descamps, Lille
+ * 1.000  S2-842482150  DF Santé | 46 RUE EUGENE DESCAMPS, LILLE, Nord
+   0.230  S2-890572557  DF  Amicale SAS | 49 RUE EUGÈNE DESCAMPS, LILLE, Hauts-de-France
+   0.029  S2-283732193  DF  Fetes-SAS | 
+   0.009  S2-602321005  DF Santé International [S.A.S.] | 49 RUE EUGENE DESCAMPS, LILLE, Hauts-de-France
+
+S1 S1-256929524  Cojeul Selam Anciens SAS | 5 Rue Charles Manso, Lille, Hauts-de-France
+ * 1.000  S3-408800916  Cojeul Selam Anciens [SAS] | 5 Rue Charles Manso, Lille, Hauts-de-France
+ * 1.000  S3-516220235  Cojeul Selam Anciens SAS | 5 Rue Charles Manso, Lille, Hauts-de-France
+ * 1.000  S2-803272563  COJEUL SELAM ANCIENS | 5 RUE CHARLES MANSO, LILLE
+   0.161  S3-3259575  Sollum | 5 Rue Charles Fourier, Lille, Hauts-de-France
+   0.071  S3-61761176  COJEUL SELAM ANCIENS SASU | 16 Rue Charles Manso, Lille
+
+S1 S1-739974317  Union de Quartier | 141 Rue de l'Arbrisseau, Lille, Hauts-de-France
+   0.235  S3-320316652  Union des Art | 11 Cour Gruyelle, Lille, Hauts-de-France
+   0.075  S3-379674820  Union des French | # 141 Rue Des Pontes, Lille, Hauts-de-France
+   0.044  S3-433562996  Union De Quartier France | 142 R De L'arbrisseau, Lille, Hauts-de-France
+   0.020  S2-410161881  Union de Quartier International | 142 R DE L'ARBRISSAU, Nord, LILLE
+   0.003  S3-588341566  Zetaquonyla | 82 Rue de l'Arbrisseau, Lille, Hauts-de-France
+
+S1 S1-779392586  Établissements Aventures SARL | 125 Rue de Toutes Aides, Saint-Nazaire, Pays de la Loire
+ * 0.989  S2-817353063  ÉTABLISSEMENTS AVENTURES SARL SERVICES | SAINT-NAZAIRE, R DE TOUTES AIDES, Pays de la Loire
+ * 0.982  S2-441742958  ÉTABLISSEMENTS AVENTURES SÀRL | R DE TOUTES AIDES, SAINT-NAZAIRE, Pays de la Loire
+ * 0.972  S3-648219798  établissements Aventures Sarl | 00125 R De Toutes Aides, St-nazaire, Pays de la Loire
+   0.021  S3-987683942  Établissements Arts SARL | 25 Avenue Des Frégates, Saint-nazaire, Pays de la Loire
+   0.020  S2-983473293  Établissements Aide  SARL | 
+
+S1 S1-694364817  Spectacle & Frères | 104 Rue Raspail, Tourcoing, Hauts-de-France
+ * 1.000  S3-979634789  Spectacle & | 104 Rue Raspail, Tourcoing
+ * 1.000  S3-326515509  Spectacle & | 104 Rue Raspail, Tourcoing
+ * 0.986  S2-251162084  & Spectacle Développement | NO. 104 RUE RASPAIL, Tourcoing, Hauts-de-France
+   0.350  S3-186347531  Spectacle & Frères  SARL | 108 R Raspail, Tourcoing
+   0.041  S3-559302961  Ectovera | Rue Raspail, Tourcoing, Hauts-de-France
+
+S1 S1-608793508  Centre Hospitalier du Andre | 101 Rue Jean Moulin, Roubaix, Hauts-de-France
+ * 1.000  S2-758974787  Centre Hospitalier Andre du | ROUBAIX, 101 RUE JEAN MOULIN, Hauts-de-France
+ * 1.000  S3-957975337  Centre Hospitalier Du Andre | No. 101 Rue Jean Moulin, Roubaix
+ * 1.000  S3-843490958  Centre Hospitalier du Andre | No. 101 R Jean Moulin, Roubaix
+ * 1.000  S2-939542022  Centre Hospitalier dû Andre | 101 RUE JEAN MOULIN, ROUBAIX, Hauts-de-France
+   0.062  S3-685466429  Centrehospitalierstage.Com | 0117 R. Jean Moulin, Roubaix, Hauts-de-France
+
+S1 S1-65683150  EHPAD Agreee | 30 RUE des Meuniers, Lille, Hauts-de-France
+ * 1.000  S3-745946556  Ehpad Agreee | 30 R Des Meuniers, Lille, Hauts-de-France
+ * 0.997  S3-72462871  EHPAD | 30 RUE des Meuniers, Lille, Hauts-de-France
+ * 0.988  S3-586651211  EHPAD Agreee SA | 30 Rue Des Mluniers, Hauts-de-France, Lille
+ * 0.986  S2-475017892  EHPAD Agreee Services | 30 RUE DES MEUNIERS, LILLE
+ * 0.962  S3-985030030  EHPAD Abtiareee | 30 Rue Des Meuniers, Lille, Hauts-de-France
+
+S1 S1-867381334  Maison de Santé du Jeanne | 88 Rue Racine, Lille, Hauts-de-France
+ * 1.000  S3-952091365  MAISON DU SANTÉ DE JEANNE | Hauts-de-France, Lille, 88 R Racine
+ * 0.995  S3-54994921  maisondesant.com | 88 Rue Racine, Lille, Hauts-de-France
+ * 0.995  S2-858993756  Maison de Santé du Jeanne [EURL] | 88 RUE RACINE, Nord, LILLE
+   0.042  S2-592590771  Maison de Santé du Jeanne Distribution | 101 RUE RACINE, LILLE
+   0.028  S3-103882046  Lycée du Jean | Rue Racine, Lille, Hauts-de-France
+
+S1 S1-855260084  Oasis Club (France) SAS | 3 Rue des Oliviers, Lège-Cap-Ferret, Nouvelle-Aquitaine
+ * 1.000  S3-615418047  Oasis Club (France) SAS | N° 3 Rue Des Oliviers, Lège Cap Ferret, Nouvelle-Aquitaine
+   0.010  S2-169308108  Oasis Club (France) E.U.R.L. | 5 R DES OLIVIERS, LÈGE-CAP-FERRET
+   0.006  S3-854344834  Oasis (France) France SAS Groupe | 5 Rue Des Olivires, Lège-cap-ferret, Nouvelle-Aquitaine
+   0.003  S2-97726139  ASSOCIATION DE COURTS SAS | BORDEAUX, 3 RUE HAZERA, Nouvelle-Aquitaine
+   0.000  S3-652073473  Sans + Fils | 3 - R Des Palmiers, Lège-cap-ferret, Nouvelle-Aquitaine
+
+S1 S1-692366187  EBV Societe SAS | 24 Rue Jean Moulin, Lille, Hauts-de-France
+ * 0.999  S3-792531104  EBV Societe | No 24 R Jean Moulin, Lille, Nord
+ * 0.985  S2-951719424  EBV Societe-SAS | 
+   0.130  S2-566110332  EB Societe EURL | 24 R. DE CONDE, LILLE, Nord
+   0.115  S3-370069894  EBV  Loisirs SAS | Lille, (45) R Jean Moulin, Nord
+   0.012  S2-853561205  EBV Societe Distribution SAS | #45 R. JEAN MOULIN, LILLE
+
+S1 S1-370424687  École primaire de Jardins | 123 Rue de la République, Dunkerque, Hauts-de-France
+ * 1.000  S3-602563279  École primaire  de Jardins | 123 R. De La République, Dunkerque, Nord
+ * 1.000  S2-815997631  École primaire de Jardins | 123 R. DE LA RÉPUBLIQUE, DUNKERQUE, Hauts-de-France
+ * 1.000  S3-543649457  Jardins primaire de École | Nord, Dunkerque, 123 Rue De La Republique
+   0.019  S3-91002760  dunkerqueamis.com | Rue De La République, Dunkerque, Hauts-de-France
+   0.014  S3-594894460  École primaire du Bernard | 1 Rue De La Republique, Dunkerque, Hauts-de-France
+
+S1 S1-596617502  Diocesaine Comite SA | 91 RUE Sainte Monique, Bordeaux, Nouvelle-Aquitaine
+ * 1.000  S2-372646719  SA Diocesaine Çomite | Bordeaux, Gironde, # 91 RUE SAINTE MONIQUE
+ * 1.000  S3-744182810  Diocesaine | 91 RUE Sainte Monique, Bordeaux, Nouvelle-Aquitaine
+ * 1.000  S2-713414870  Diocesaine Comite-5A | # 91 R SAINTE MONIQUE, BORDEAUX, Gironde
+ * 0.852  S3-186885325  DIOCESAINE ECOLE SA | 112 Rue Sainte Monique, Bordeaux, Nouvelle-Aquitaine
+ * 0.798  S3-830277763  Kornex | 91 Rue Sainte Monique, Bordeaux, Nouvelle-Aquitaine
+
+S1 S1-722949956  Run Foyer SAS | 14 Rue le Titien, Calais, Hauts-de-France
+ * 1.000  S3-894258050  S.A.S. Run Foyer | 14 Rue Le Titien, Calais, Hauts-de-France
+ * 1.000  S2-461038421  #runfoyer | CALAIS, 14 RUE LE TITIEN
+ * 0.999  S3-57177686  Run Foyer | 14 Rue Le Titen, Calais, Hauts-de-France
+ * 0.917  S3-923864638  Run SAS & (Associés) | 14 R. Le Titien, Calais, Hauts-de-France
+   0.453  S2-776417359  Run Amis SAS | 18 RUE LE TITIEN, CALAIS
+
+S1 S1-63601652  Saint-Herblain Sportive SAS | 108 Rue du Docteur Boubée, Saint-Herblain, Pays de la Loire
+ * 1.000  S2-289137528  Saint-Herblain Sportive-S.A.S | 108 R. DU DOCTEUR BOUBÉE, ST-HERBLAIN, Pays de la Loire
+ * 1.000  S3-140591227  Saint-Herblain Sportive | No 108 R. Du Docteur Boubée, St-herblain, Loire-Atlantique
+ * 1.000  S2-944009474  SAINT-HERBLAIN SPÔRTIVE SAS | 108 RUE DU DOCTEUR BOUBÉE, SAINT-HERBLAIN, Pays de la Loire
+ * 0.999  S3-10378017  Saint-Herblain Spôrtive SAS | No 108 R Du Docteur Boubee, Loire-Atlantique, Saint-herblain
+   0.036  S3-766440931  Saint-Herblain Sportive | 115 Rue Du Docteur Boubee, St.-herblain, Loire-Atlantique
+
+S1 S1-916575962  TFZ Maison SA | 14 Rue de la Paix, Pessac, Nouvelle-Aquitaine
+ * 1.000  S3-852345794  Tfz Maison Sa | 14 Rue De La Paix, Pessac
+ * 1.000  S3-948074527  TFZ Mâison SA | 14 R De La Paix, Pessac
+ * 1.000  S2-623640691  TFZ MAISON | 014 RUE DE LA PAIX, PESSAC
+ * 0.963  S2-775770728  Services TFZ SA | 014 RUE DE LA PAIX, Pessac
+   0.045  S3-203031064  TFZ Maison Groupe | 35 Rue De La Paix, Pessac, Nouvelle-Aquitaine
+
+S1 S1-30950838  Lille Collectif SARL | 25 Rue de la Louvière, Lille, Hauts-de-France
+ * 1.000  S2-442699264  Lille Collectif SARL | 25 RUE DE LA LOUVIÈRE, LILLE, Nord
+ * 1.000  S3-882018569  SARL Lille Collectif | 25 Rue De La Louvière, Lille, Hauts-de-France
+ * 1.000  S3-194397252  Collectif Lille SARL | 25 Rue De La Louvière, Lille, Hauts-de-France
+ * 0.995  S3-897081148  Lille  Collectif | Hauts-de-France, 25 R De La Louvière, Lille
+ * 0.988  S2-409506672  lille collectif sarl | Nord, 25 RUE DE LA LOUVNERE, LILLE
+
+S1 S1-961088496  Ets Imagein SARL | 45 Boulevard de Strasbourg, Roubaix, Hauts-de-France
+ * 1.000  S3-254717240  Ets Imagein S.A.R.L. | Hauts-de-France, 45 Blvd De Strasbourg, Roubaix
+ * 1.000  S3-591811134  Synkelo doing business as Ets Imagein SARL | 45 Boulevard de Strasbourg, Roubaix, Hauts-de-France
+   0.040  S2-329825979  Ets Imagein Distribution SARL | Nº 58 BOULEVARD DE STRASBOURG, ROUBAIX
+   0.006  S3-687883299  As Sport Sas | 245 Boulevard De Strasbourg, Roubaix, Hauts-de-France
+   0.004  S3-897047531  Ets Imagein Holding (Sarl) | 58 Boulevard De Strasbourg, Roubaix, Hauts-de-France
+
+S1 S1-969816757  Defi Replay Club SAS | 9 Avenue Paul Valéry, La Baule-Escoublac, Pays de la Loire
+ * 1.000  S3-309025530  Defi Replay Club SAS | 9 Avenue Paul Valéry, La Baule-escoublac, Pays de la Loire
+ * 1.000  S2-295995935  Defi Replay Çlub SAS | 9 AV. PAUL VALÉRY, LA BAULE-ESCOUBLAC
+ * 1.000  S3-945887113  Defi Replay SAS (Club) | La Baule-escoublac, 9 Av. Paul Valery, Pays de la Loire
+ * 1.000  S3-401576240  Defi Replay | 9 Av Paul Vsléry, La Baule-escoublac, Pays de la Loire
+   0.491  S2-652317890  Defi Replay Union SAS | 10 AVENUE PAUL VALÉRY, LA BAULE-ESCOUBLAC, Pays de la Loire

@@ -1,0 +1,8 @@
+== job 38885 (ber_encode) on cse-node010 at 2026-09-26 21:24:33
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 8/27: train source2 chunk 5 rows [5000000, 5034616) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse1/train_source2_005.npy
+read + cleaned 34,616 texts in 12s; e.g. ['ஹைடெக் டெக்னாலஜி பிரைவேட் லிமிடெட் | door no 013/4 buddha street, chennai city corporation, chennai city region, tamil nadu', 'limited aryavart to private | door no c-26a, ambattur, tamil nadu']
+     34,616/34,616  1,098 rec/s  eta 0.0 min
+saved (34616, 768) in 48s total

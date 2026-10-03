@@ -1,0 +1,14 @@
+== job 38734 (ber_block) on cse-node011 at 2026-09-26 18:52:13
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 9/9: test / US / source3 -> /u/student/2025/cs25mtech11019/ber/student_resource/work/cand/labse0/test_US_source3.parquet
+663,106 S1 records x 1,945,701 source3 records in US
+loaded embeddings in 42s
+  queries     8,192/663,106    0.0 min  eta   1.2 min
+  queries   172,032/663,106    3.8 min  eta  11.0 min
+  queries   335,872/663,106    7.8 min  eta   7.6 min
+  queries   499,712/663,106   11.8 min  eta   3.8 min
+  queries   663,106/663,106   15.7 min  eta   0.0 min
+15,865,188 candidate pairs (23.9 per S1) in 16.9 min
+done in 17.0 min

@@ -1,0 +1,30 @@
+== job 39345 (ber_efdec) on cse-node010 at 2026-09-27 22:13:27
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 16 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+validation: 13,343,936 pairs, 220,914 S1 entities, runs ['labse2k', 'labse2kb'] (470s)
+  weights (1.0, 0.0): threshold rule (t=0.75, t1=None) 0.9840 | best expected-F rule 0.9840 (601s)
+  weights (0.0, 1.0): threshold rule (t=0.75, t1=None) 0.9835 | best expected-F rule 0.9836 (732s)
+  weights (0.5, 0.5): threshold rule (t=0.7, t1=None) 0.9840 | best expected-F rule 0.9840 (864s)
+  weights (0.25, 0.75): threshold rule (t=0.75, t1=None) 0.9838 | best expected-F rule 0.9838 (994s)
+  weights (0.75, 0.25): threshold rule (t=0.75, t1=None) 0.9840 | best expected-F rule 0.9840 (1125s)
+
+validation macro F0.5, best 15 settings:
+     weights       rule    t   t1    a    b    s      f05  precision   recall
+(0.75, 0.25)  threshold 0.75 None  NaN  NaN  NaN 0.984045   0.995228 0.963156
+(0.75, 0.25) expected-F  NaN None 2.00 -1.0 1.25 0.984032   0.994944 0.963705
+(0.75, 0.25) expected-F  NaN None 2.00 -1.5 1.25 0.984030   0.995794 0.961255
+  (0.5, 0.5) expected-F  NaN None 2.00 -1.5 1.25 0.984029   0.995799 0.961131
+  (1.0, 0.0) expected-F  NaN None 2.00 -1.5 1.00 0.984014   0.995680 0.961416
+(0.75, 0.25) expected-F  NaN None 2.00 -1.5 1.00 0.984012   0.995768 0.961272
+  (0.5, 0.5) expected-F  NaN None 2.00 -1.0 1.25 0.984007   0.994891 0.963607
+  (0.5, 0.5)  threshold 0.70 None  NaN  NaN  NaN 0.983993   0.994280 0.965365
+(0.75, 0.25) expected-F  NaN None 1.25 -0.5 1.25 0.983992   0.995604 0.961620
+(0.75, 0.25) expected-F  NaN None 2.00 -1.0 1.00 0.983991   0.994902 0.963733
+(0.75, 0.25) expected-F  NaN None 1.50 -1.0 1.25 0.983984   0.996047 0.960284
+  (1.0, 0.0) expected-F  NaN None 2.00 -1.5 1.25 0.983979   0.995703 0.961384
+  (0.5, 0.5) expected-F  NaN None 2.00 -1.5 0.80 0.983977   0.995728 0.961182
+(0.75, 0.25) expected-F  NaN None 1.50 -0.5 1.25 0.983974   0.994929 0.963645
+  (1.0, 0.0)  threshold 0.75 None  NaN  NaN  NaN 0.983972   0.995156 0.963268
+
+reference (labse2k alone, threshold rule): 0.9840
+BEST threshold weights {'labse2k': 0.75, 'labse2kb': 0.25} t=0.75 t1=None: macro F0.5 0.9840 | precision 0.9952 | recall 0.9632 (gain +0.0001)
+gain below 0.0002: keep labse2k's existing output. Nothing written.

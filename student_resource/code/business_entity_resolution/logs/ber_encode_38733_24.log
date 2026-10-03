@@ -1,0 +1,19 @@
+== job 38824 (ber_encode) on cse-node012 at 2026-09-26 18:31:06
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+0, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+1, Tesla P100-PCIE-16GB, 16384 MiB, 570.158.01
+task 24/27: test source3 chunk 2 rows [2000000, 3000000) -> /u/student/2025/cs25mtech11019/ber/student_resource/work/emb/labse0/test_source3_002.npy
+read + cleaned 1,000,000 texts in 22s; e.g. ['byler, escobar and minnis armada group | 10829 katydid lane, danville, arkansas', 'borivali west india pvt. ltd. | b/04, mumbai region, mumbai, महाराष्ट्र']
+/u/student/2025/cs25mtech11019/.conda/envs/ber/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+    100,000/1,000,000  1,082 rec/s  eta 13.9 min
+    200,000/1,000,000  1,082 rec/s  eta 12.3 min
+    300,000/1,000,000  1,081 rec/s  eta 10.8 min
+    400,000/1,000,000  1,081 rec/s  eta 9.3 min
+    500,000/1,000,000  1,080 rec/s  eta 7.7 min
+    600,000/1,000,000  1,080 rec/s  eta 6.2 min
+    700,000/1,000,000  1,080 rec/s  eta 4.6 min
+    800,000/1,000,000  1,080 rec/s  eta 3.1 min
+    900,000/1,000,000  1,080 rec/s  eta 1.5 min
+  1,000,000/1,000,000  1,080 rec/s  eta 0.0 min
+saved (1000000, 768) in 958s total

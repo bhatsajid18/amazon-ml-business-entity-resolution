@@ -1,0 +1,175 @@
+== job 38719 (ber_stats) on cse-node010 at 2026-09-26 16:58:36
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+
+==============================================================================
+READING FILES
+==============================================================================
+  train_source1.tsv            rows  2,206,821 | raw lines  2,206,821 | skipped 0 | fields starting with a quote 4 | 8s
+  train_source2.tsv            rows  5,034,616 | raw lines  5,034,616 | skipped 0 | fields starting with a quote 6 | 20s
+  train_source3.tsv            rows  5,285,603 | raw lines  5,285,603 | skipped 0 | fields starting with a quote 0 | 20s
+  train_ground_truth.tsv       rows  2,206,821 | raw lines  2,206,821 | skipped 0 | fields starting with a quote 0 | 4s
+  test_source1.tsv             rows  1,732,544 | raw lines  1,732,544 | skipped 0 | fields starting with a quote 134 | 6s
+  test_source2.tsv             rows  4,887,273 | raw lines  4,887,273 | skipped 0 | fields starting with a quote 349 | 20s
+  test_source3.tsv             rows  5,082,316 | raw lines  5,082,316 | skipped 0 | fields starting with a quote 330 | 20s
+
+==============================================================================
+TRAIN: source files
+==============================================================================
+
+[source1] rows 2,206,821 | duplicate ids 0 | wrong id prefix 0 | empty name 0 | empty address 0
+  country labels: {'US': 1323633, 'India': 883188}
+  name script share by country (sample of 200,000):
+    name script  latin
+    country           
+    India          1.0
+    US             1.0
+  name script != address script: 0.00%
+  name chars p50/p95/p99: [24.0, 37.0, 42.0] | address chars p50/p95/p99: [41.0, 103.0, 124.0]
+
+[source2] rows 5,034,616 | duplicate ids 0 | wrong id prefix 0 | empty name 0 | empty address 168967
+  country labels: {'US': 3016817, 'India': 2017799}
+  name script share by country (sample of 200,000):
+    name script  bengali  devanagari  gujarati  gurmukhi  kannada   latin  malayalam    none   oriya   tamil  telugu
+    country                                                                                                         
+    India         0.0155      0.1305    0.0145    0.0031   0.0178  0.7713     0.0091  0.0000  0.0038  0.0156  0.0188
+    US            0.0000      0.0000    0.0000    0.0000   0.0000  0.9999     0.0000  0.0001  0.0000  0.0000  0.0000
+  name script != address script: 12.46%
+  name chars p50/p95/p99: [25.0, 40.0, 48.0] | address chars p50/p95/p99: [37.0, 96.0, 118.0]
+
+[source3] rows 5,285,603 | duplicate ids 0 | wrong id prefix 0 | empty name 0 | empty address 175916
+  country labels: {'US': 3170056, 'India': 2115547}
+  name script share by country (sample of 200,000):
+    name script  bengali  devanagari  gujarati  gurmukhi  kannada   latin  malayalam    none   oriya   tamil  telugu
+    country                                                                                                         
+    India         0.0081      0.0706    0.0076    0.0018   0.0096  0.8760     0.0048  0.0000  0.0019  0.0092  0.0104
+    US            0.0000      0.0000    0.0000    0.0000   0.0000  0.9999     0.0000  0.0001  0.0000  0.0000  0.0000
+  name script != address script: 8.49%
+  name chars p50/p95/p99: [25.0, 42.0, 50.0] | address chars p50/p95/p99: [42.0, 91.0, 115.0]
+
+==============================================================================
+TEST: source files
+==============================================================================
+
+[source1] rows 1,732,544 | duplicate ids 0 | wrong id prefix 0 | empty name 0 | empty address 0
+  country labels: {'India': 809986, 'US': 663106, 'France': 259452}
+  name script share by country (sample of 200,000):
+    name script  latin
+    country           
+    France         1.0
+    India          1.0
+    US             1.0
+  name script != address script: 0.00%
+  name chars p50/p95/p99: [24.0, 36.0, 42.0] | address chars p50/p95/p99: [51.0, 105.0, 126.0]
+
+[source2] rows 4,887,273 | duplicate ids 0 | wrong id prefix 0 | empty name 0 | empty address 129408
+  country labels: {'India': 2312565, 'US': 1871330, 'France': 703378}
+  name script share by country (sample of 200,000):
+    name script  bengali  devanagari  gujarati  gurmukhi  kannada   latin  malayalam    none   oriya   tamil  telugu
+    country                                                                                                         
+    France        0.0000       0.000    0.0000    0.0000     0.00  1.0000     0.0000  0.0000  0.0000  0.0000   0.000
+    India         0.0148       0.132    0.0144    0.0034     0.02  0.7670     0.0095  0.0000  0.0038  0.0161   0.019
+    US            0.0000       0.000    0.0000    0.0000     0.00  0.9999     0.0000  0.0001  0.0000  0.0000   0.000
+  name script != address script: 13.69%
+  name chars p50/p95/p99: [25.0, 41.0, 49.0] | address chars p50/p95/p99: [43.0, 99.0, 120.0]
+
+[source3] rows 5,082,316 | duplicate ids 0 | wrong id prefix 0 | empty name 0 | empty address 136098
+  country labels: {'India': 2405000, 'US': 1945701, 'France': 731615}
+  name script share by country (sample of 200,000):
+    name script  bengali  devanagari  gujarati  gurmukhi  kannada   latin  malayalam    none   oriya  tamil  telugu
+    country                                                                                                        
+    France        0.0000      0.0000    0.0000    0.0000   0.0000  0.9999     0.0000  0.0001  0.0000  0.000  0.0000
+    India         0.0082      0.0709    0.0077    0.0016   0.0103  0.8740     0.0053  0.0000  0.0019  0.009  0.0111
+    US            0.0000      0.0000    0.0000    0.0000   0.0000  0.9999     0.0000  0.0001  0.0000  0.000  0.0000
+  name script != address script: 8.83%
+  name chars p50/p95/p99: [25.0, 42.0, 50.0] | address chars p50/p95/p99: [43.0, 94.0, 117.0]
+
+==============================================================================
+TRAIN: ground truth
+==============================================================================
+GT rows 2,206,821 | duplicate S1 rows 0 | S1 ids missing from GT 0 | GT ids not in source1 0
+dup ids inside a list 0 | matched ids not found in S2/S3 0 | prefixes {'S3': 3944746, 'S2': 3693619}
+
+matches per S1 (count: entities): {0: 123247, 1: 119157, 2: 375212, 3: 530841, 4: 484115, 5: 321957, 6: 164868, 7: 63968, 8: 18680, 9: 4205, 10: 534, 11: 37}
+singletons 5.58% | mean 3.46 (non-singletons 3.67) | max 11
+per source: max from S2 5 (p99 5) | max from S3 6 (p99 5)
+
+S2/S3 records linked to >1 S1: 0 (max parents 1)  -> one-parent rule is SAFE
+S2 records with no S1 match: 26.64%
+S3 records with no S1 match: 25.37%
+
+matched pairs whose country labels differ: 0.00% -> per-country shards are SAFE
+match country    India       US
+S1 country                     
+India          3059843        0
+US                   0  4578522
+
+per S1 country:
+         entities  singleton_frac    mean  max
+country                                       
+India      883188          0.0559  3.4645   11
+US        1323633          0.0558  3.4591   11
+
+name script, S1 (rows) vs matched record (cols), sample 200,000:
+match name  bengali  devanagari  gujarati  gurmukhi  kannada   latin  malayalam  none  oriya  tamil  telugu
+S1 name                                                                                                    
+latin           961        7974       906       207     1139  185855        590    19    222    982    1145
+
+matched-record name script share by source:
+match name  bengali  devanagari  gujarati  gurmukhi  kannada   latin  malayalam    none   oriya   tamil  telugu
+source                                                                                                         
+S2           0.0063      0.0521    0.0061    0.0014   0.0077  0.9070     0.0039  0.0001  0.0014  0.0064  0.0077
+S3           0.0034      0.0285    0.0030    0.0007   0.0038  0.9501     0.0021  0.0001  0.0008  0.0035  0.0039
+
+==============================================================================
+EXAMPLE CLUSTERS
+==============================================================================
+
+--- US: clusters with >= 2 matches
+    S1-342425925  [US]  Trusted Beacon Calisa, LLC  |  12831 Skyline Drive, Plainfield, IL
+  ->S2-117631504  [US]  [LLC] Trusted Beacon Calisa,  |  12831 SKYLINE DR, PLAINFIELD, IL
+  ->S3-237901710  [US]  Trusted Beacon Calisa,  |  Skyline Dr, Plainfield, Illinois
+  ->S3-499029710  [US]  Trusted Beacon Calisa, LLC  |  12958 Skyline Dr, Plainfield, Illinois
+    S1-559405589  [US]  Coastal Flag  |  15501 Ramage Avenue, Maple Heights, OH
+  ->S2-682316477  [US]  Coastal Flag LP  |  15501 RAMAGE AVENUE, MAPLE HEIGHTS, OH
+  ->S3-354364564  [US]  Coasta1 [Flag]  |  Maple Heights, 15501 Ramage Ave, Ohio
+  ->S3-32698407  [US]  Coastal  Flag lnc.  |  15501 Ramaeg Ave, Maple Heights, Ohio
+    S1-865980456  [US]  Tatum Cms, L.L.C.  |  613 Brookstone Bend, Webster, NY
+  ->S2-572019458  [US]  TATUM CMS, L.L.C.  |  613-D BROOKSTONE BEND, WEBSTER, NY
+  ->S3-521698521  [US]  Tatum Cc Cc L.L.C.  |  613 Brookstone Bend, Webster, New York
+  ->S3-248495872  [US]  Tatum Cs L.L.C.  |  613 Brookstone Bend, Webster, New York
+    S1-67280363  [US]  Lower Enterprise Inc  |  6 Alyson Drive, Orchard Park, NY
+  ->S2-108030966  [US]  Lower Enterprise  |  6 ALYSON DRIVE, ORCHARD PARK, NY
+  ->S2-313197957  [US]  Lower Enterprise  Inc  |  NY, 6 ALYSON DRIVE, ORCHARD PARK
+  ->S2-648400138  [US]  Lower Enterprise (Inc)  |  6 ALYSON DR, ORCHARD PARK, NY
+  ->S3-146648911  [US]  Lower Enterpre Ínc  |  6 Alyson Dr, Orchard Park, New York
+
+--- India: clusters with >= 2 matches
+    S1-115254730  [India]  Om Consultancy Private Limited  |  'Dharmbhakti', 1, Radhanagar Main Road, B/H. Patel Field Marshal Wadi, Rajkot, Gujarat
+  ->S2-897319464  [India]  ઓમ કન્સલ્ટન્સી પ્રાઇવેટ લિમિટેડ  |  'DHARMBHAKTI', 1, RADHANAGAR MAIN ROAD, B/H. PATEL FIELD MARSHAL WADI, RAJKOT, Gujarat
+  ->S3-190284004  [India]  Om Consultny Private Limited  |  Rajkot, ગુજરાત, 'Dhsrmbhakti'
+  ->S3-530908067  [India]  Sri Om Consultancy Limited Partners  |  'Dharmbhakti', 1, Radhanagar Main Road, B/h. Patel Field Marshal Wadi, Rajkot, GJ
+  ->S3-515274927  [India]  Om-Consultancy Private  |  1, Radhanagar Main Road, B/h. Patel Field Marshal Wadi, 'Dharmbhakti', ગુજરાત, Rajkot
+    S1-832190143  [India]  Gujarat Food Private Limited  |  78, Swaran Appartments, Dakshin Delhi, C.G.H.S., Madhuban Chowk, Pitampura, New Delhi, Del
+  ->S2-625698072  [India]  गुजरात फूड प्राइवेट लिमिटेड  |  78, SWARAN APPARTMENTS, DAKSHIN DELHI, C.G.H.S., MADHUBAN CHOWK, NEW DELHI, PITAMPURA, Del
+  ->S2-377823734  [India]  Gujarat [Food]  |  78, SWARAN APPARTMENTS, DAKSHIN DELHI, C.G.H.S., MADHUBAN CHOWK, PITAMPURA, Delhi
+  ->S3-850295100  [India]  गुजरात फूड प्राइवेट लिमिटेड  |  New Delhi, Swaran Appartments, Dakshin Delhi, C.g.h.s., Madhuban Chowk, DL, 78., Pitampura
+    S1-258584066  [India]  AK Services Private Limited  |  6/157/A, Chaithanya Herbal, Naducode, Narruvammoodu, Neyyattinkara, Thiruvananthapuram, Tr
+  ->S2-46408710  [India]  AK  SERVICES PRIVATE  |  6/157/A, CHAITHANYA HERBAL, NADUCODE, NARRUVAMMOODU, NEYYATTINKARA, THIRUVANANTHAPURAM, Ke
+  ->S3-66681706  [India]  AK Sseaevces  Private Limited  |  6/157/A, Chaithanya Herbal, Naducode, Narruvammoodu, Neyyattinkara, Thiruvananthapuram, Tr
+    S1-684588754  [India]  Nagpur Land Clinic  |  H No 852, Ward No 36, Balaji Mandir Rd, Nagpur, Maharashtra
+  ->S2-733661325  [India]  Nagpur Land Clinic C0  |  H NO 852, WARD NO 36, BALAJI MANDIR RD, NAGPUR, महाराष्ट्र
+  ->S2-121313416  [India]  NAGPUR LAND LAND CLINIC CO  |  H NO 852, WARD NO 36, BALAJI MANDIR RD, NAGPUR, Maharashtra
+  ->S2-816333505  [India]  Nagpur  Land Clinic Company  |  #852 , WARD NO 36, BALAJI MANDIR RD, NAGPUR, Maharashtra
+  ->S2-50327088  [India]  nagpur land clinic  |  H NO 852, WARD NO 36, BALAJI MANDIR RD, NAGPUR, Maharashtra
+  ->S3-744187091  [India]  Nagpur Land Clinic Corporation  |  Nagpur, No 852/4, Nagpur, MH
+  ->S3-741859981  [India]  Land Nagpur (Clinic)  |  H No 852/4, MH, Nagpur
+
+--- singletons (no matches)
+    S1-945775621  [US]  Keystone Analytics Worldwide  |  5704 Cedar Bluff Place, Temple Hills, MD
+    S1-709754271  [US]  Bedolla Trusted Citizens  |  2807 Katherine Court, Dalworthington Gardn, TX
+    S1-741603705  [US]  Floyd, Olson and Olson Co  |  Missouri City, TX, 3318 Brushy Lake Drive
+    S1-463196324  [US]  Cota Assets of Bethany Beach LLC  |  157 Henlopen Drive, Bethany Beach, DE
+
+==============================================================================
+DONE in 329s -> /u/student/2025/cs25mtech11019/ber/student_resource/work/data_stats.json
+==============================================================================

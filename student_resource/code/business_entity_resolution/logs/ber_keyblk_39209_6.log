@@ -1,0 +1,7 @@
+== job 39219 (ber_keyblk) on cse-node010 at 2026-09-27 14:26:57
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 4 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+task 6: test / India / source2 -> /u/student/2025/cs25mtech11019/ber/student_resource/work/cand/labse2k/test_India_source2.parquet
+809,986 S1 x 2,312,565 source2 records
+912,468 usable keys -> 33,475,976 key pairs in 82s
+embedding pairs 18,196,118 | key-only pairs added 6,232,867 (7.70 per S1)
+done in 2.5 min

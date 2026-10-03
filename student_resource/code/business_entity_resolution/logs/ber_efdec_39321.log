@@ -1,0 +1,26 @@
+== job 39321 (ber_efdec) on cse-node011 at 2026-09-27 19:56:53
+== python /u/student/2025/cs25mtech11019/.conda/envs/ber/bin/python | cpus 16 | work dir /u/student/2025/cs25mtech11019/ber/student_resource/work
+validation: 13,343,936 pairs, 220,914 S1 entities, runs ['labse2k'] (331s)
+  weights (1.0,): threshold rule (t=0.75, t1=None) 0.9840 | best expected-F rule 0.9840 (463s)
+
+validation macro F0.5, best 15 settings:
+weights       rule    t   t1    a    b    s      f05  precision   recall
+ (1.0,) expected-F  NaN None 2.00 -1.5 1.00 0.984014   0.995680 0.961416
+ (1.0,) expected-F  NaN None 2.00 -1.5 1.25 0.983979   0.995703 0.961384
+ (1.0,)  threshold 0.75 None  NaN  NaN  NaN 0.983972   0.995156 0.963268
+ (1.0,) expected-F  NaN None 2.00 -1.0 1.25 0.983972   0.994856 0.963818
+ (1.0,) expected-F  NaN None 1.50 -1.0 1.25 0.983969   0.995966 0.960469
+ (1.0,) expected-F  NaN None 2.00 -1.0 1.00 0.983946   0.994824 0.963843
+ (1.0,) expected-F  NaN None 2.00 -1.5 0.80 0.983931   0.995637 0.961434
+ (1.0,) expected-F  NaN None 1.25 -0.5 1.25 0.983925   0.995486 0.961784
+ (1.0,) expected-F  NaN None 1.50 -0.5 1.25 0.983899   0.994842 0.963709
+ (1.0,) expected-F  NaN None 1.50 -1.0 1.00 0.983895   0.995907 0.960500
+ (1.0,) expected-F  NaN None 2.00 -1.0 0.80 0.983889   0.994771 0.963874
+ (1.0,) expected-F  NaN None 1.50 -1.0 0.80 0.983837   0.995850 0.960537
+ (1.0,) expected-F  NaN None 1.25 -0.5 1.00 0.983836   0.995413 0.961829
+ (1.0,) expected-F  NaN None 1.50 -0.5 1.00 0.983827   0.994783 0.963744
+ (1.0,) expected-F  NaN None 2.00 -0.5 1.25 0.983744   0.993808 0.966114
+
+reference (labse2k alone, threshold rule): 0.9840
+BEST expected-F weights {'labse2k': 1.0} a=2.0 b=-1.5 s=1.0: macro F0.5 0.9840 | precision 0.9957 | recall 0.9614 (gain +0.0000)
+gain below 0.0002: keep labse2k's existing output. Nothing written.
